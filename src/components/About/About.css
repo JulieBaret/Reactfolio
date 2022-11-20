@@ -1,3 +1,4 @@
+/* section about */
 .about {
   display: flex;
   flex-direction: row;
@@ -7,53 +8,7 @@
   color: #444444;
 }
 
-.links {
-  flex-direction: row;
-}
-
-.link {
-  align-self: center;
-  justify-self: center;
-  margin : 1em;
-}
-
-button {
-  background-color: transparent;
-  cursor: pointer;
-  padding: 1em 1em;
-  font-weight: 500;
-  font-size: 0.9rem;
-  margin: 2em;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-}
-
-#github {
-  margin: 0.5em;
-}
-
-#linkedin {
-  margin: 0.3em;
-}
-
-.name, .job, .desc {
-  margin-bottom: 0.5em;
-}
-
-.name {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-.point {
-  color:#FF6575;
-  font-weight: 900;
-}
-
-.text {
-  flex-direction: column;
-  /* justify-content: space-around; */
-}
-
+/* about picture */
 .profilePicture {
   width: 10em;
   background-color: #FFC0BF;
@@ -68,6 +23,26 @@ button {
   background-color: #FF6575;
   position: relative;
   border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
+}
+
+
+/* about content */
+.about-content {
+  flex-direction: column;
+}
+
+.job, .desc {
+  margin-bottom: 0.8em;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.point {
+  color:#FF6575;
+  font-weight: 900;
 }
 
 .job {
@@ -85,10 +60,18 @@ button {
   font-size: 1em;
 }
 
+/* about links */
+.about-link {
+  margin-right: 1em;
+}
+
 @media (max-width: 850px) {
   .about {
     flex-direction: column;
     height: 95vh;
   }
 
+  .about-links {
+    flex-direction: column;
+  }
 }

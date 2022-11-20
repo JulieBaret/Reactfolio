@@ -3,7 +3,7 @@ const about = {
   name: 'Julie Baret',
   role: 'Software developer',
   description:
-    "Développeuse full-stack en cours de formation, riche d’alternance d'expériences dans les médias et la génération de contenus digitaux, je recherche un contrat de professionnalisation de 12 mois à compter de mars 2023.",
+    "Développeuse full-stack en cours de formation, riche d'expériences dans les médias et la génération de contenus digitaux, je recherche une alternance de 12 mois à compter de mars 2023.",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com/in/juliebaret',

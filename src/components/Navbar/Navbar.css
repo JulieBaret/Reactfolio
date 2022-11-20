@@ -8,6 +8,7 @@
   align-items: center;
   font-size: 1.3em;
   flex-wrap: wrap;
+  color: #444444;
 }
 
 .navbar ul {
