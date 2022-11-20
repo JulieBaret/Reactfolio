@@ -1,0 +1,9 @@
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section bio {
+    height: 100vh;
+}

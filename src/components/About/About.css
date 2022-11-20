@@ -1,0 +1,94 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #444444;
+}
+
+.links {
+  flex-direction: row;
+}
+
+.link {
+  align-self: center;
+  justify-self: center;
+  margin : 1em;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 1em 1em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin: 2em;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#github {
+  margin: 0.5em;
+}
+
+#linkedin {
+  margin: 0.3em;
+}
+
+.name, .job, .desc {
+  margin-bottom: 0.5em;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.point {
+  color:#FF6575;
+  font-weight: 900;
+}
+
+.text {
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.profilePicture {
+  width: 10em;
+  background-color: #FFC0BF;
+  position: absolute;
+  z-index:10;
+  border-radius : 65% 35% 32% 68% / 30% 53% 47% 70%;
+}
+
+.shape {
+  width: 10em;
+  height: 10em;
+  background-color: #FF6575;
+  position: relative;
+  border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
+}
+
+.job {
+  font-size: 2rem;
+  font-weight: 600;
+  width: fit-content;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  /* text-decoration-thickness: 0.2em; */
+  text-decoration-color: #FF6575;
+}
+
+.desc {
+  max-width: 500px;
+  font-size: 1em;
+}
+
+@media (max-width: 850px) {
+  .about {
+    flex-direction: column;
+    height: 95vh;
+  }
+
+}

@@ -1,0 +1,26 @@
+.navbar {
+  position: static; /* Set the navbar to fixed position */
+  width: 95%; /* Full width */
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.3em;
+  flex-wrap: wrap;
+}
+
+.navbar ul {
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* .navbar ul a:hover {
+
+} */
+
+.navbar ul li {
+  padding: 1em;
+}
