@@ -23,7 +23,7 @@ const projects = [
     picture: 'https://raw.githubusercontent.com/JulieBaret/Panda-vs-Trump/master/img/game.png',
     type: 'Jeu vidéo',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      "Jeu vidéo rétro développé en Lua sur le logiciel Pico-8.",
     stack: ['Lua', 'Pico-8'],
     repo: 'https://github.com',
     demo: 'https://github.com',
@@ -33,7 +33,7 @@ const projects = [
     picture: 'https://raw.githubusercontent.com/JulieBaret/pokeastro/master/img/home.png',
     type: 'Visualisation de données',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Site multipages responsive combinant l’astrologie et l’univers de Pokémon.',
     stack: ['HTML', 'CSS', 'JavaScript', 'Git', 'GitHub', 'API'],
     repo: 'https://github.com',
     demo: 'https://github.com',

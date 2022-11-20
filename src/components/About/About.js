@@ -22,13 +22,28 @@ const About = () => {
           {/* CV */}
           <span className="about-link">
             <a
-              class="inline-flex items-center rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+              class="inline-flex items-center rounded-full bg-gradient-to-r from-red-500 to-red-400 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
               href={resume}
             >
               <span
-                class="block rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
+                class="inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
               >
                 Resume
+                
+                <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="ml-1.5 h-4 w-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              ></path>
+            </svg>
               </span>
             </a>
           </span>
