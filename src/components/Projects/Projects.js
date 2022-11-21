@@ -7,8 +7,10 @@ const Projects = () => {
   if (!projects.length) return null
 
   return (
+
+
     <section id='projects' className='section'>
-      <h2 className='section__title'>Réalisations</h2>
+      <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">Mes réalisations</h2>
 
       <div className='projects__grid'>
         {projects.map((project) => (

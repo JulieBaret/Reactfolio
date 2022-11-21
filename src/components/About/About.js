@@ -16,7 +16,8 @@ const About = () => {
           {name}<span className='point'>.</span>
         </div>
         <div className='job'>{role}</div>
-        <div className='desc'>{description}</div>
+        <div className='desc'>
+        <p class="mb-6 text-md font-regular text-gray-500 md:text-lg">{description}</p></div>
 
         <div className='about-links'>
           {/* CV */}

@@ -9,12 +9,12 @@ const Bio = () => {
         <section>
             <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-                    <div class="relative z-10 lg:py-16">
+                    <div class="relative z-10 lg:py-40">
                         <div class="relative h-64 sm:h-80 lg:h-full">
                             <img
                                 alt="House"
                                 src={workingPicture}
-                                class="absolute inset-0 h-full w-full object-cover"
+                                class="absolute inset-0 h-50% w-full object-cover"
                             />
                         </div>
                     </div>
@@ -25,20 +25,12 @@ const Bio = () => {
                         ></span>
 
                         <div class="p-8 sm:p-16 lg:p-24">
-                            <h2 class="text-2xl font-bold sm:text-3xl">
-                                À propos de moi
-                            </h2>
+                        <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">WhoAmI</h2>
+
 
                             <p class="mt-4 text-gray-600">
                                 {text}
                             </p>
-
-                            <a
-                                href="#"
-                                class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                            >
-                                Get in Touch
-                            </a>
                         </div>
                     </div>
                 </div>
