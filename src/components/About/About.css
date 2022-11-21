@@ -20,7 +20,7 @@
 .shape {
   width: 10em;
   height: 10em;
-  background-color: #FF6575;
+  background-color: #F87171;
   position: relative;
   border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
 }
@@ -41,7 +41,7 @@
 }
 
 .point {
-  color:#FF6575;
+  color:#F87171;
   font-weight: 900;
 }
 

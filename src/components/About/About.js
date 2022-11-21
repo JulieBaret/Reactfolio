@@ -3,7 +3,7 @@ import './About.css'
 import profilePicture from '../../assets/pp-no-bg.png'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, description, social } = about
 
   return (
     <div className='about'>
@@ -13,26 +13,31 @@ const About = () => {
       </div>
       <div className='about-content'>
         <div className='name'>
-          {name}<span className='point'>.</span>
+          <span class="text-4xl font-extrabold text-neutral-700 md:text-5xl mb-4">{name}</span><span className='point'>.</span>
         </div>
-        <div><h1 class="mb-4 text-3xl font-extrabold text-gray-400 md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300">Software</span> Engineer</h1>
+        <div><h1 class="mb-4 text-3xl font-extrabold text-neutral-200 md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300">Software</span> Engineer</h1>
         </div>
         <div className='desc'>
-          <p class="mb-6 text-md font-regular text-gray-500 md:text-lg">{description}</p></div>
+          <p class="mb-6 text-md font-regular text-neutral-400 md:text-lg">{description}</p></div>
 
         <div className='about-links'>
           {/* CV */}
           <span className="about-link">
             <a
-              class="inline-flex items-center rounded-full bg-gradient-to-r from-red-500 to-red-400 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
-              href={resume}
+              class="inline-flex items-center rounded-full bg-gradient-to-r text-red-500 from-red-500 to-red-400 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+              href='baret-julie-resume.pdf'
+              target="_blank"
             >
               <span
                 class="inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
               >
                 Resume
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
 
-                <svg
+
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -45,7 +50,7 @@ const About = () => {
                     stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                   ></path>
-                </svg>
+                </svg> */}
               </span>
             </a>
           </span>
@@ -53,7 +58,7 @@ const About = () => {
           {/* GitHub */}
           <span className="about-link">
             <a
-              class="inline-flex items-center rounded-full border-2 border-[#171515] bg-[#171515] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#171515] focus:outline-none focus:ring active:opacity-75"
+              class="inline-flex items-center rounded-full border-2 border-neutral-700 bg-neutral-700 px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-neutral-700 focus:outline-none focus:ring active:opacity-75"
               href={social.github}
               target="_blank"
               rel="noreferrer"

@@ -6,7 +6,7 @@ const UpToTop = () => {
 
   useEffect(() => {
     const toggleVisibility = () =>
-      window.pageYOffset > 200 ? setIsVisible(true) : setIsVisible(false)
+      window.pageYOffset > 1000 ? setIsVisible(true) : setIsVisible(false)
 
     window.addEventListener('scroll', toggleVisibility)
     return () => window.removeEventListener('scroll', toggleVisibility)
@@ -15,7 +15,10 @@ const UpToTop = () => {
   return isVisible ? (
     <div className='scroll-top'>
       <a href='#top'>
-        Up
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="grey" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+        </svg>
+
       </a>
     </div>
   ) : null
