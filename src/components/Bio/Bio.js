@@ -28,9 +28,7 @@ const Bio = () => {
                         <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">WhoAmI</h2>
 
 
-                            <p class="mt-4 text-gray-600">
-                                {text}
-                            </p>
+                        <p class="font-light text-gray-500 mb-6">{text}</p>
                         </div>
                     </div>
                 </div>
