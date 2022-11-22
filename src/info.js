@@ -1,10 +1,7 @@
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Julie Baret',
-  role: 'Software developer',
   description:
     "Développeuse full-stack en cours de formation, riche d'expériences dans les médias et la génération de contenus digitaux, je recherche une alternance de 12 mois à compter de mars 2023.",
-  resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com/in/juliebaret',
     github: 'https://github.com/JulieBaret',
@@ -12,15 +9,14 @@ const about = {
 }
 
 const bio = {
-  text: "Développeuse en cours de formation, j'ai travaillé plusieurs années dans les médias avant de démarrer une reconversion professionnelle vers l’informatique. À Ada Tech School, école de programmation inclusive, je réalise des projets de groupe en suivant les méthodes Agile. Cette pédagogie « par le faire » me permet d'améliorer mes compétences techniques full-stack ainsi que mes qualités en gestion de projet, en cohésion d'équipe et en communication. Je souhaite mettre mon expérience de journaliste et mes compétences acquises en développement au service d’outils numériques ayant un impact positif sur la société."
+  paraph1: "J'ai travaillé plusieurs années dans les médias avant de démarrer une reconversion professionnelle vers l’informatique. À Ada Tech School, école de programmation inclusive, je réalise des projets de groupe en suivant les méthodes Agile. Cette pédagogie « par le faire » me permet d'améliorer mes compétences techniques full-stack ainsi que mes qualités en gestion de projet, en cohésion d'équipe et en communication.",
+  paraph2: "Je souhaite aujourd'hui mettre mon expérience de journaliste et mes compétences acquises en développement au service d’outils numériques ayant un impact positif sur la société."
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Panda vs. Trump',
-    picture: 'https://raw.githubusercontent.com/JulieBaret/Panda-vs-Trump/master/img/game.png',
+    picture: '/assets/montage-panda-def.png',
     type: 'Jeu vidéo',
     pitch: "Jeu vidéo rétro développé en Lua sur le logiciel Pico-8.",
     description:
@@ -31,7 +27,7 @@ const projects = [
   },
   {
     name: 'Poké-Astro',
-    picture: 'https://raw.githubusercontent.com/JulieBaret/pokeastro/master/img/home.png',
+    picture: '/assets/montage-poke-def.png',
     type: 'Visualisation de données',
     pitch:
       "Site responsive combinant l’astrologie et l’univers de Pokémon.",
@@ -42,7 +38,7 @@ const projects = [
   },
   {
     name: 'ReSoc - Le Réseau Social',
-    picture: 'https://raw.githubusercontent.com/JulieBaret/socialnetwork/master/img/home.png',
+    picture: '/assets/montage-resoc-def.png',
     type: 'BDD & PHP',
     pitch: "Sur ce site, on peut poster des messages, en liker, s'abonner aux autres users, etc.",
     description:
@@ -66,8 +62,7 @@ const projects = [
   //   description:
   //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
   //   stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
-  //   repo: 'https://github.com',
-  //   demo: 'https://github.com',
+  //   repo: '',
   // },
   {
     name: 'Random kitty',
@@ -77,13 +72,12 @@ const projects = [
     description:
       "Ce site responsive d’une seule page affiche aléatoirement des images de chats à chaque rafraîchissement, grâce à l’API thecatapi.com.",
     stack: ['HTML', 'CSS', 'JavaScript', 'API'],
-    repo: 'https://github.com',
-    demo: 'https://github.com',
+    repo: 'https://github.com/JulieBaret/kitty-mood',
+    demo: 'https://juliebaret.github.io/kitty-mood/',
   }
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'jem.baret@gmail.com',
 }
 

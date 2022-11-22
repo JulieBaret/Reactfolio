@@ -15,7 +15,7 @@ const About = () => {
         <div className='name'>
           <span class="text-4xl font-extrabold text-neutral-700 md:text-5xl mb-4">{name}</span><span className='point'>.</span>
         </div>
-        <div><h1 class="mb-4 text-3xl font-extrabold text-neutral-200 md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300">Software</span> Engineer</h1>
+        <div><h1 class="mb-4 text-3xl font-extrabold md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300">Software</span><span className="engine"> Engineer</span></h1>
         </div>
         <div className='desc'>
           <p class="mb-6 text-md font-regular text-neutral-400 md:text-lg">{description}</p></div>

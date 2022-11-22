@@ -4,7 +4,6 @@ import workingPicture from '../../assets/working.png'
 import './Bio.css'
 
 const Bio = () => {
-    const { text } = bio
     return (
         <section>
             <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
@@ -26,7 +25,8 @@ const Bio = () => {
 
                         <div class="p-8 sm:p-16 lg:p-24">
                         <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">WhoAmI</h2>
-                        <p class="font-light text-gray-500 mb-6">{text}</p>
+                        <p class="font-light text-gray-500 text-justify mb-6">{bio.paraph1}</p>
+                        <p class="font-light text-gray-500 text-justify mb-6">{bio.paraph2}</p>
                         </div>
                     </div>
                 </div>
