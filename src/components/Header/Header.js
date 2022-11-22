@@ -1,10 +1,11 @@
 import { useState } from "react";
+import './Header.css'
 
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="flex items-center justify-end px-20 py-10">
+        <div className="flex items-center justify-end px-10 py-10">
 
             <nav>
                 <section className="MOBILE-MENU flex lg:hidden">
@@ -35,7 +36,7 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-center justify-between min-h-[250px] text-neutral-400">
+                        <ul className="flex flex-col items-center justify-between min-h-[250px] font-normal text-neutral-400">
                             <li>
                                 <a href="#projects">Projets</a>
                             </li>
@@ -49,7 +50,7 @@ export default function Header() {
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-neutral-400">
+                <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-normal text-neutral-400">
                     <li>
                         <a href="#projects">Projets</a>
                     </li>
@@ -61,25 +62,6 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
-            <style>{`
-    .hideMenuNav {
-        display: none;
-    }
-    .showMenuNav {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        background: white;
-        z-index: 20;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    `}</style>
         </div>
     );
 }

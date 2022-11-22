@@ -19,8 +19,8 @@ const ProjectContainer = ({ project }) => {
               <span class="text-red-300">{project.type}</span>
             </h2>
 
-            <p class="mb-3 text-md font-regular text-neutral-500 md:text-lg">{project.pitch}</p>
-            <p class="font-light text-neutral-400 mb-6">{project.description}</p>
+            <p class="mb-3 text-md font-medium text-neutral-500 md:text-lg">{project.pitch}</p>
+            <p class="font-normal text-neutral-400 mb-6">{project.description}</p>
             {project.stack && (
               <ul className='stack'>
                 {project.stack.map((item) => (

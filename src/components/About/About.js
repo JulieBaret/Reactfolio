@@ -24,7 +24,7 @@ const About = () => {
         
         </div>
         <div className='desc'>
-          <p class="mb-6 text-md font-regular text-neutral-400 md:text-lg">{description}</p></div>
+          <p class="mb-6 text-md font-medium text-neutral-500 md:text-lg">{description}</p></div>
 
         <div className='about-links'>
           {/* CV */}

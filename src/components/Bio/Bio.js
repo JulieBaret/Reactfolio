@@ -18,17 +18,17 @@ const Bio = () => {
                         </div>
                     </div>
 
-                    <div class="relative flex items-center bg-gray-100">
+                    <div class="relative flex items-center bg-neutral-100">
                         <span
-                            class="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"
+                            class="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-neutral-100"
                         ></span>
 
                         <div class="p-8 sm:p-16 lg:p-24">
                         <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">WhoAmI</h2>
-                        <p class="font-light text-gray-500 text-justify mb-6">{bio.paraph1}</p>
-                        <p class="font-light text-gray-500 text-justify mb-6">{bio.paraph2}</p>
+                        <p class="font-normal text-gray-400 text-justify mb-6">{bio.paraph1}</p>
+                        <p class="font-normal text-gray-400 text-justify mb-6">{bio.paraph2}</p>
                         
-                        <p class="font-regular text-gray-500 text-justify mb-6">{bio.paraph3}</p>
+                        <p class="font-medium text-gray-500 text-justify mb-6">{bio.paraph3}</p>
                         </div>
                     </div>
                 </div>
