@@ -1,0 +1,16 @@
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+    margin-left: 5em;
+    margin-bottom: 5em;
+}
+
+
+@media (max-width: 850px) {
+    .timeline {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
