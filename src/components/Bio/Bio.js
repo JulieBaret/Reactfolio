@@ -25,8 +25,8 @@ const Bio = () => {
 
                         <div class="p-8 sm:p-16 lg:p-24">
                         <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">WhoAmI</h2>
-                        <p class="font-normal text-gray-400 text-justify mb-6">{bio.paraph1}</p>
-                        <p class="font-normal text-gray-400 text-justify mb-6">{bio.paraph2}</p>
+                        <p class="text-gray-500 text-justify mb-6">{bio.paraph1}</p>
+                        <p class="text-gray-500 text-justify mb-6">{bio.paraph2}</p>
                         
                         <p class="font-medium text-gray-500 text-justify mb-6">{bio.paraph3}</p>
                         </div>
