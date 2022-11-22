@@ -1,0 +1,14 @@
+.contact-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8em;
+}
+
+.contact-mail, .contact-linkedin, .contact-github {
+    margin-bottom: 1em
+}
+
+.contact {
+    min-height: 60vh;
+}

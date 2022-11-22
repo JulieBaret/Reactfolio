@@ -22,11 +22,7 @@ const Navbar = () => {
         <li><a class="rounded-lg px-3 py-2" href="#bio"> Who Am I </a></li>
 
         <li>
-          <a
-            class="inline-flex items-center rounded-lg px-3 py-2"
-            href=""
-            target="_blank"
-          >
+          <a class="inline-flex items-center rounded-lg px-3 py-2" href="#contact">
             Contact
           </a>
         </li>

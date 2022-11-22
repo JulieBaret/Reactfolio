@@ -15,7 +15,13 @@ const About = () => {
         <div className='name'>
           <span class="text-4xl font-extrabold text-neutral-700 md:text-5xl mb-4">{name}</span><span className='point'>.</span>
         </div>
-        <div><h1 class="mb-4 text-3xl font-extrabold md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300">Software</span><span className="engine"> Engineer</span></h1>
+        <div><h1 class="mb-4 text-3xl font-extrabold md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-300">Software </span><span class="bg-gradient-to-r from-red-400 to-red-300 text-neutral-50">Developer</span></h1>
+        {/* <div>
+        <svg fill="red" stroke="blue" stroke-width="2">
+          <text>Engineer</text>
+        </svg>
+          </div> */}
+        
         </div>
         <div className='desc'>
           <p class="mb-6 text-md font-regular text-neutral-400 md:text-lg">{description}</p></div>
@@ -24,12 +30,12 @@ const About = () => {
           {/* CV */}
           <span className="about-link">
             <a
-              class="inline-flex items-center rounded-full bg-gradient-to-r text-red-500 from-red-500 to-red-400 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+              class="inline-flex items-center rounded-full bg-gradient-to-r text-red-400 from-red-400 to-red-300 p-[2px] hover:text-neutral-50 focus:outline-none focus:ring active:text-opacity-75"
               href='baret-julie-resume.pdf'
               target="_blank"
             >
               <span
-                class="inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
+                class="inline-flex rounded-full bg-neutral-50 px-8 py-3 text-sm font-medium hover:bg-transparent"
               >
                 Resume
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2">

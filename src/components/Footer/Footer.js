@@ -1,9 +1,12 @@
 import './Footer.css'
 
 const Footer = () => (
-  <footer className='footer'>
-      Created By Julie Baret
-  </footer>
+  
+<footer>
+    <span class="block text-sm text-neutral-500 sm:text-center mb-8">Made with React, Tailwind and 🧡 by Julie Baret
+    </span>
+</footer>
+
 )
 
 export default Footer

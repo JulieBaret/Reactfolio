@@ -5,7 +5,7 @@ import './Bio.css'
 
 const Bio = () => {
     return (
-        <section>
+        <section id="bio">
             <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
                     <div class="relative z-10 lg:py-16">
@@ -27,6 +27,8 @@ const Bio = () => {
                         <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">WhoAmI</h2>
                         <p class="font-light text-gray-500 text-justify mb-6">{bio.paraph1}</p>
                         <p class="font-light text-gray-500 text-justify mb-6">{bio.paraph2}</p>
+                        
+                        <p class="font-regular text-gray-500 text-justify mb-6">{bio.paraph3}</p>
                         </div>
                     </div>
                 </div>
