@@ -5,11 +5,11 @@ import './Bio.css'
 
 const Bio = () => {
     return (
-        <section id="bio">
+        <section>
             <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
                     <div class="relative z-10 lg:py-16">
-                        <div class="relative h-64 sm:h-80 lg:h-full">
+                        <div class="relative h-64 sm:h-80 lg:h-full" id="bio">
                             <img
                                 alt="House"
                                 src={workingPicture}
