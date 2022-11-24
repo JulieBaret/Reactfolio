@@ -74,7 +74,7 @@ const projects = [
     type: 'E-commerce',
     pitch: "Site de vente de meubles d'occasion",
     description:
-      "Applications back-end et front-end permettant d'afficher un ensemble de produits d'une base de données NoSQL. Filtre des résultats par prix, couleur, catégorie ou mot-clé. Inscription et authentification. Possibilité, en tant que simple user, de proposer des objets à la vente. Accès réservé à une page admin pour ajouter ou non ces objets au catalogue et gérer les produits.",
+      "Applications back-end et front-end permettant d'afficher les produits d'une base de données NoSQL. Filtre des résultats par prix, couleur, catégorie ou mot-clé. Inscription et authentification. Possibilité, en tant que simple user, de proposer des objets à la vente. Accès réservé à une page admin pour ajouter ou non ces objets au catalogue et gérer les produits.",
     stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
     other: 'En cours de déploiement',
   },
