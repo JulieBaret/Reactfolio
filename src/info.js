@@ -69,12 +69,12 @@ const projects = [
     repo: 'https://github.com/JulieBaret/FOMO'
   },
   {
-    name: 'ANPMV',
+    name: 'Anciens meubles pour une nouvelle vie',
     picture: '/assets/montage-ecommerce-def.gif',
     type: 'E-commerce',
-    pitch: "D'anciens meubles pour une nouvelle vie",
+    pitch: "Site de vente de meubles d'occasion",
     description:
-      "Applications back-end et front-end permettant d'afficher un ensemble de meubles issues d'une base de données NoSQL sur une home page. Filtre des résultats par prix, couleur, catégorie, mot-clé. Inscription et authentification. Possibilité de proposer, via formulaire, des objets à la vente. Accès réservé à une page admin permettant de modifier le statut des produits ('en cours de validation', 'en vente', 'vendu').",
+      "Applications back-end et front-end permettant d'afficher un ensemble de produits d'une base de données NoSQL. Filtre des résultats par prix, couleur, catégorie ou mot-clé. Inscription et authentification. Possibilité, en tant que simple user, de proposer des objets à la vente. Accès réservé à une page admin pour ajouter ou non ces objets au catalogue et gérer les produits.",
     stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
     other: 'En cours de déploiement',
   },
