@@ -1,10 +1,11 @@
 .timeline {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
     max-width: 650px;
     margin-left: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 

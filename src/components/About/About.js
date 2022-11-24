@@ -6,6 +6,7 @@ const About = () => {
   const { name, description, social } = about
 
   return (
+    <div className="home">
     <div className='about'>
       <div>
         <img className='profilePicture' src={profilePicture} alt="profile" />
@@ -113,7 +114,9 @@ const About = () => {
 
         </div>
       </div>
-    </div>
+      </div>
+      </div>
+
   )
 }
 

@@ -68,18 +68,72 @@ const projects = [
     stack: ['HTML', 'CSS', 'JavaScript', 'API', 'Git', 'GitHub', 'Figma'],
     repo: 'https://github.com/JulieBaret/FOMO'
   },
-  // {
-  //   name: 'Anciens meubles pour une nouvelle vie',
-  //   type: 'E-commerce',
-  //   description:
-  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-  //   stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
-  //   repo: '',
-  // },
+  {
+    name: 'ANPMV',
+    picture: '/assets/montage-ecommerce-def.gif',
+    type: 'E-commerce',
+    pitch: "D'anciens meubles pour une nouvelle vie",
+    description:
+      "Applications back-end et front-end permettant d'afficher un ensemble de meubles issues d'une base de données NoSQL sur une home page. Filtre des résultats par prix, couleur, catégorie, mot-clé. Inscription et authentification. Possibilité de proposer, via formulaire, des objets à la vente. Accès réservé à une page admin permettant de modifier le statut des produits ('en cours de validation', 'en vente', 'vendu').",
+    stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
+    other: 'En cours de déploiement',
+  },
 ]
 
 const contact = {
   email: 'jem.baret@gmail.com',
 }
 
-export { about, projects, contact, bio }
+const experience = [  
+{
+  where: "Ada Tech School",
+  what: "Concepteur Développeur d'applications",
+  when: "Mai 2022 - Mars 2024",
+  // more: ["École de code guidée par la pédagogie Montessori", "Succession de projets suivant les méthodes Agile", "Apprentissage des bonnes pratiques du développement", "Seconde partie de l'enseignement réalisé en alternance"],
+  more: ["École de code guidée par la pédagogie Montessori", "Succession de projets par sprint de deux semaines en agilité", "Seconde partie de la formation réalisé en alternance"]
+},
+{
+  where: "Mairie de Paris",
+  what: "Programmer en Python : s'initier",
+  when: "Octobre 2021 - Février 2022",
+  more: ["Cours du soir pour adultes"]
+},
+{
+  where: "Konbini",
+  what: "Journaliste et cheffe de rubrique",
+  when: "Mai 2018 - Mai 2022",
+  more: ["Création et gestion du programme Konbini Stories diffusé sur Snapchat et suivi par 1 millions d’abonné·e·s en 2022", "Interviews, cadrage et montage vidéo, graphisme, recherche et rédaction", "Préparation des reportages de Konbini News"],
+},
+{
+  where: "SOS homophobie",
+  what: "Rédactrice bénévole",
+  when: "Septembre 2020 - Mai 2022",
+  more: ["Participation à la rédaction, l’élaboration et la diffusion du Rapport annuel de SOS homophobie qui documente l’évolution des LGBTIphobies en France"],
+},
+{
+  where: "Têtu",
+  what: "Journaliste plurimédia",
+  when: "Mars 2016 - Février 2018",
+  more: ["Rédaction quotidienne d’articles pour le site internet tetu.com", "Auteure de chroniques sur l'actualité culturelle et sociétale pour le magazine bimestriel TÊTU"],
+},
+{
+  where: "Institut Français de Presse (IFP)",
+  what: "Sciences des médias",
+  when: "2013 - 2016",
+  more: ["Master 1 & 2 : Médias, Langages et Société", "Échange universitaire d'un semestre à l'Université Laval à Québec, Canada", "Option Études de genre à l'École des Hautes Études en Sciences Sociales"],
+},
+{
+  where: "Université Paris-Sorbonne (Paris IV)",
+  what: "Histoire",
+  when: "2011 - 2013",
+  more: ["Double-Licence 3 : Histoire et Information-Communication", "Licence 1 & Licence 2 : Histoire", "Option Histoire de l’Art"],
+},
+// {
+//   where: "",
+//   what: "Baccalauréat scientifique",
+//   when: "2011",
+//   more: [""],
+// },
+]
+
+export { about, projects, contact, bio, experience }

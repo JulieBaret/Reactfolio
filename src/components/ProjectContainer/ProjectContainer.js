@@ -30,7 +30,7 @@ const ProjectContainer = ({ project }) => {
                 ))}
               </ul>
             )}
-
+            {project.repo !== undefined ?
             <a
               class="inline-flex items-center rounded-full bg-neutral-700 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
               href={project.repo}
@@ -57,7 +57,8 @@ const ProjectContainer = ({ project }) => {
 
 
               </span>
-            </a>
+              </a> : <p class="font-normal text-neutral-400 mb-6">{project.other}</p>
+            }
             {project.demo !== undefined ? <a
               class="ml-2 inline-flex items-center rounded-full bg-gradient-to-r text-red-500 from-red-500 to-red-400 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
               href={project.demo}

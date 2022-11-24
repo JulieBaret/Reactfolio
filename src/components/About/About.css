@@ -2,7 +2,7 @@
 .about {
   display: flex;
   flex-direction: row;
-  height: 80vh;
+  height: 75vh;
   justify-content: space-evenly;
   align-items: center;
   color: #444444;

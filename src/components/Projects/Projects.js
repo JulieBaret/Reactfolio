@@ -10,7 +10,7 @@ const Projects = () => {
 
 
     <section id='projects' className='section'>
-      <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">Mes réalisations</h2>
+      <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">Réalisations</h2>
 
       <div className='projects__grid'>
         {projects.map((project) => (
