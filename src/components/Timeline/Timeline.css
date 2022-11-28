@@ -20,7 +20,7 @@
     }
 
     .timeline-title {
-        @apply text-red leading-4 font-semibold text-lg md:text-xl -mt-2;
+        @apply text-red leading-5 font-semibold text-lg md:text-xl md:-mt-2 -mt-4 flex flex-wrap;
     }
 
     .timeline-container {
