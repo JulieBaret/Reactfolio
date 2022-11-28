@@ -1,49 +1,73 @@
-/* .project {
-  padding: 1em;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .design-block {
+    @apply mb-8 text-dark-grey text-center md:text-left md:mb-4;
+  }
+
+  .card {
+    @apply flex flex-wrap items-center;
+  }
+
+  .project-picture-container {
+    @apply grow-0 shrink-0 basis-auto block lg:flex w-full md:w-4/12;
+  }
+  
+  .project-picture {
+    @apply w-full rounded-t-lg md:rounded-tr-none md:rounded-bl-lg -mb-8 md:-mb-0;
+  }
+
+  .project-text-border {
+    @apply grow-0 shrink-0 basis-auto w-full md:w-8/12;
+  }
+
+  .project-text-container {
+    @apply px-6 py-12 md:px-12;
+  }
+
+  .project-title {
+    @apply text-3xl md:text-2xl font-bold mb-3 flex flex-col lg:flex-wrap lg:flex-row;
+  }
+
+  .project-name {
+    @apply text-red mr-2;
+  }
+
+  .project-type {
+    @apply text-pink font-semibold uppercase text-xl md:text-2xl md:font-medium;
+  }
+
+  .project-pitch {
+    @apply mb-3 text-dark-grey text-lg;
+  }
+
+  .project-description {
+    @apply font-light text-dark-grey text-base mb-6;
+  }
+
+  .badge {
+    @apply bg-light-grey text-black text-sm font-medium mr-2 md:mb-4 px-3 py-2 rounded-full;
+  }
+
+  .stack {
+    display: flex;
+    flex-wrap: wrap;
+    @apply mb-2 md:mb-3;
+  }
+
+    /* Resume Button */
+    .black-button-border {
+      @apply inline-flex items-center rounded-full transition-colors bg-black text-black p-[2px] mr-2 hover:text-white;
+    }
+  
+    .black-button-text {
+      @apply inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent;
+    }
 }
-
-.project:hover {
-  transform: scale(1.02);
-  transition-duration: 0.2s;
-}
-
-.project__description {
-  margin-top: 1em;
-} */
-
-.stack {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2em;
-}
-
-/* .stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: var(--clr-fg-alt);
-  padding: 1em;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  border-radius: 25%;
-} */
-
-.type {
-  text-transform: uppercase;
-  color: #808080;
-  margin-bottom: 2em;
-}
-
-/* .preview {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-img {
-  max-width: 100%;
-} */
 
 @media (max-width: 850px) {
   .stack-item {

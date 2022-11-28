@@ -1,7 +1,7 @@
 const about = {
   name: 'Julie Baret',
   description:
-    "Je suis développeuse full-stack en cours de formation, riche d'expériences dans les médias et la génération de contenus digitaux.",
+    "Développeuse full-stack en cours de formation, riche d'expériences dans les médias et la génération de contenus digitaux.",
   social: {
     linkedin: 'https://linkedin.com/in/juliebaret',
     github: 'https://github.com/JulieBaret',
@@ -29,7 +29,7 @@ const projects = [
   {
     name: 'ReSoc',
     picture: '/assets/montage-resoc-def.png',
-    type: 'Réseau social PHP & MySQL',
+    type: 'Réseau social',
     pitch: "Poster, liker et s'abonner",
     description:
       "Reprise d'une architecture PHP et ajout d'une connexion à une base de données relationnelle ainsi que des features suivantes : inscription et authentification, publication de messages, ajout d'un « J'aime » sur un post, accès aux murs de publication de chaque user, abonnement aux publications des autres users, recherche de messages par mots-clés.",
@@ -76,7 +76,7 @@ const projects = [
     description:
       "Applications back-end et front-end permettant d'afficher les produits d'une base de données NoSQL. Filtre des résultats par prix, couleur, catégorie ou mot-clé. Inscription et authentification. Possibilité, en tant que simple user, de proposer des objets à la vente. Accès réservé à une page admin pour ajouter ou non ces objets au catalogue et gérer les produits.",
     stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
-    other: 'En cours de déploiement',
+    other: 'En cours de déploiement...',
   },
 ]
 

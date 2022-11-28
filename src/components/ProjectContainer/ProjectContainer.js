@@ -4,41 +4,41 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => {
   return (
     // <!-- Section: Design Block -->
-    <section class="mb-5 text-gray-800 text-center md:text-left">
+    <section className='design-block'>
 
       {/* <div class="block rounded-lg shadow-lg bg-white"> */}
-      <div class="flex flex-wrap items-center">
-        <div class="grow-0 shrink-0 basis-auto block lg:flex w-full md:w-4/12">
+      <div className='card'>
+        <div className='project-picture-container'>
           <img src={project.picture}
-            class="w-full rounded-t-lg md:rounded-tr-none md:rounded-bl-lg" alt={project.name} />
+            className='project-picture' alt={project.name} />
         </div>
-        <div class="grow-0 shrink-0 basis-auto w-full md:w-8/12">
-          <div class="px-6 py-12 md:px-12">
-            <h2 class="text-2xl font-bold mb-4">
-              <span class="text-red-400">{project.name} </span>
-              <span class="text-red-300">{project.type}</span>
-            </h2>
+        <div className='project-text-border'>
+          <div className='project-text-container'>
+            <div className='project-title'>
+              <span className='project-name'>"{project.name}"</span>
+              <span className='project-type'>{project.type}</span>
+            </div>
 
-            <p class="mb-3 text-md font-medium text-neutral-500 md:text-lg">{project.pitch}</p>
-            <p class="font-normal text-neutral-400 mb-6">{project.description}</p>
+            <p className='project-pitch'>{project.pitch}</p>
+            <p className='project-description'>{project.description}</p>
             {project.stack && (
               <ul className='stack'>
                 {project.stack.map((item) => (
                   <li key={uniqid()} className='stack-item'>
-                    <span class="bg-neutral-100 text-neutral-500 text-sm font-medium mr-2 px-3 py-2 rounded-full">{item}</span>
+                    <div className='badge'>{item}</div>
                   </li>
                 ))}
               </ul>
             )}
             {project.repo !== undefined ?
             <a
-              class="inline-flex items-center rounded-full bg-neutral-700 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+              className='black-button-border'
               href={project.repo}
               target="_blank"
               rel="noreferrer"
             >
               <span
-                class="inline-flex rounded-full bg-white px-5 py-3 text-sm font-medium hover:bg-transparent"
+                className='black-button-text'
               >
                 Repo
                 <svg
@@ -60,13 +60,13 @@ const ProjectContainer = ({ project }) => {
               </a> : <p class="font-normal text-neutral-400 mb-6">{project.other}</p>
             }
             {project.demo !== undefined ? <a
-              class="ml-2 inline-flex items-center rounded-full bg-gradient-to-r text-red-500 from-red-500 to-red-400 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+              className='red-button-border'
               href={project.demo}
               target="_blank"
               rel="noreferrer"
             >
               <span
-                class="inline-flex rounded-full bg-white px-5 py-3 text-sm font-medium hover:bg-transparent"
+                className='red-button-text'
               >
                 Demo
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">

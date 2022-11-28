@@ -1,3 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .title {
+    @apply text-4xl font-extrabold text-red lg:text-5xl mb-6 md:mb-2;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-self: center;
+  }
+
+}
+
 /* .projects__grid {
   max-width: 1100px;
   margin: 0 auto;

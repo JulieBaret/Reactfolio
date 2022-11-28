@@ -9,10 +9,10 @@ const Projects = () => {
   return (
 
 
-    <section id='projects' className='section'>
-      <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">Réalisations</h2>
+    <section id='projects' className='section projects'>
+      <div className='title'>Réalisations</div>
 
-      <div className='projects__grid'>
+      <div className='projects-container'>
         {projects.map((project) => (
           <ProjectContainer project={project} />
         ))}
