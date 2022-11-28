@@ -40,7 +40,7 @@ const projects = [
     name: 'Panda vs. Trump',
     picture: '/assets/montage-panda-def.png',
     type: 'Jeu vidéo',
-    pitch: "Dans ce jeu vidéo rétro, un seul panda doit combattre une armée de clones : les Républicants...",
+    pitch: "Dans ce jeu vidéo rétro, un seul panda doit combattre une armée de clones nommés Républicants...",
     description:
       "Jeu vidéo en 2D développé en Lua sur le logiciel Pico-8 où le·la player peut se déplacer sur une map, ramasser des items, jeter des projectiles et éviter des bots aux déplacements aléatoires pour conserver ses poins de vie.",
     stack: ['Lua', 'Pico-8'],

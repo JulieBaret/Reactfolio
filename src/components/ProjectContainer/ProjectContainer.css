@@ -38,11 +38,11 @@
   }
 
   .project-type {
-    @apply text-pink font-semibold uppercase text-xl md:text-2xl md:font-medium;
+    @apply text-pink font-semibold text-xl md:text-2xl md:font-medium;
   }
 
   .project-pitch {
-    @apply mb-3 text-dark-grey text-lg;
+    @apply mb-3 text-dark-grey text-lg leading-6;
   }
 
   .project-description {

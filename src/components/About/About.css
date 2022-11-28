@@ -17,6 +17,7 @@
   /* about picture */
   .profile {
     @apply w-32 bg-pink md:w-36 lg:w-44;
+    @apply -mt-6 md:-mt-0;
     position: absolute;
     z-index:10;
     border-radius : 65% 35% 32% 68% / 30% 53% 47% 70%;
@@ -25,6 +26,7 @@
   /* shape behind picture */
   .shape {
     @apply w-32 h-32 bg-red md:w-36 md:h-36 lg:w-44 lg:h-44;
+    @apply -mt-6 md:-mt-0;
     position: relative;
     border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
   }
