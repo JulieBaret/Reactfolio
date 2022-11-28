@@ -6,7 +6,7 @@
 @layer components {
 
     .footer-text {
-        @apply flex items-center justify-center text-sm font-normal text-grey text-center mb-8;
+        @apply flex items-center justify-center text-sm font-normal text-grey text-center mb-6;
     }
     
     .heart {
