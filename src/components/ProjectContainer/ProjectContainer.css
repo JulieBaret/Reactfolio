@@ -71,10 +71,11 @@
 
 @media (max-width: 850px) {
   .stack-item {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   .stack {
     justify-content: center;
+    margin-bottom: 1.5em;
   }
 }
