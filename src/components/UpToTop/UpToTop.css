@@ -7,20 +7,19 @@
 
   .scroll-top {
     position: fixed;
-    bottom: 2.5em;
-    right: 2.5em;
+    bottom: 3em;
+    right: 48.5vw;
     background-color: transparent;
+    z-index: 50;
   }
 
   .arrow {
-    @apply w-6 h-6 animate-pulse stroke-grey;
+    @apply w-8 h-8 text-center shadow-md animate-pulse stroke-white bg-pink px-1 py-1 rounded-full;
   }
 }
 
 @media (max-width: 900px) {
   .scroll-top {
-    bottom: 6em;
-    right: 2em;
-    z-index: 50;
+    right: 45vw;
   }
 }

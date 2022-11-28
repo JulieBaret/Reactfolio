@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    .footer-text {
+        @apply flex items-center justify-center text-sm font-normal text-grey text-center mb-8;
+    }
+    
+    .heart {
+        @apply ml-1 mr-1 w-5 h-5;
+    }
+}

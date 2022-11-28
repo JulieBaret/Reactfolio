@@ -20,10 +20,10 @@ const App = () => {
         <Bio />
         <Timeline />
         <Contact />
+        <Footer />
       </main>
 
       <UpToTop />
-      <Footer />
     </div>
   )
 }
