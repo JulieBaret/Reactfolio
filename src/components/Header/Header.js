@@ -13,18 +13,18 @@ export default function Header() {
                         className="HAMBURGER-ICON space-y-2"
                         onClick={() => setIsNavOpen((prev) => !prev)}
                     >
-                        <span className="block h-0.5 w-8 animate-pulse bg-grey"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-grey"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-grey"></span>
+                        <span className='hamburger-line'></span>
+                        <span className='hamburger-line'></span>
+                        <span className='hamburger-line'></span>
                     </div>
 
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                         <div
-                            className="absolute top-0 right-0 px-10 py-10"
+                            className='hamburger-close-container'
                             onClick={() => setIsNavOpen(false)}
                         >
                             <svg
-                                className="h-8 w-8 text-grey"
+                                className='hamburger-close'
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -36,15 +36,15 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-center justify-between min-h-[250px] font-normal text-dark-grey">
-                            <li>
-                                <a href="#projects">Projets</a>
+                        <ul className='hamburger-menu-list'>
+                            <li className='hamburger-menu-item'>
+                                <a href="#projects" onClick={() => setIsNavOpen(false)}>Projets</a>
                             </li>
                             <li>
-                                <a href="#bio">Bio</a>
+                                <a href="#bio" onClick={() => setIsNavOpen(false)}>Bio</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" onClick={() => setIsNavOpen(false)}>Contact</a>
                             </li>
                         </ul>
                     </div>

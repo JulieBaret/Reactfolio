@@ -12,19 +12,19 @@
     }
 
     .timeline-line {
-        @apply md:border-l-2 border-red mt-8;
+        @apply border-l-2 border-red mt-8;
     }
     
     .timeline-point {
-        @apply md:bg-red md:w-4 md:h-4 flex items-center justify-center rounded-full md:-ml-2 md:mr-3 md:-mt-2;
+        @apply bg-red w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-4 md:-mt-2;
     }
 
     .timeline-title {
-        @apply text-red font-semibold text-lg md:text-xl -mt-2;
+        @apply text-red leading-4 font-semibold text-lg md:text-xl -mt-2;
     }
 
     .timeline-container {
-        @apply md:ml-6 mb-2 pb-6;
+        @apply ml-6 mb-2 pb-6;
     }
 
     .timeline-date {

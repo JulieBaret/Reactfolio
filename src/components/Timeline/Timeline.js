@@ -8,7 +8,7 @@ const Timeline = () => {
     return (
         <section className='section-timeline'>
             <div className='timeline'>
-            <div className='title'>Parcours</div>
+                <div className='title'>Parcours</div>
                 <ol className='timeline-line'>
                     {data.map((exp) => (
                         <li key={uniqid()}>
@@ -38,7 +38,7 @@ const Timeline = () => {
                             <div className='timeline-title'>Baccalauréat scientifique</div>
                         </div>
                         <div className='timeline-container'>
-                        <p className='timeline-date'>2011</p>
+                            <p className='timeline-date'>2011</p>
                         </div>
                     </li>
                 </ol>

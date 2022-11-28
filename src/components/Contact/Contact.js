@@ -1,7 +1,6 @@
 import { contact } from '../../info'
 import './Contact.css'
 import { about } from '../../info'
-import Footer from '../Footer/Footer'
 
 const Contact = () => {
   if (!contact.email) return null
@@ -76,8 +75,7 @@ const Contact = () => {
           </div>
 
         </div>
-        <Footer />
-
+      <div></div>
       </div>
       {/* </div> */}
 
