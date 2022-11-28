@@ -117,13 +117,13 @@ const experience = [
   more: ["Rédaction quotidienne d’articles pour le site internet tetu.com", "Auteure de chroniques sur l'actualité culturelle et sociétale pour le magazine bimestriel TÊTU"],
 },
 {
-  where: "Institut Français de Presse",
+  where: "IFP - Institut Français de Presse (Univ. Paris 2)",
   what: "Sciences des médias",
   when: "2013 - 2016",
   more: ["Master 1 & 2 : Médias, Langages et Société", "Échange universitaire d'un semestre à l'Université Laval à Québec, Canada", "Option Études de genre à l'École des Hautes Études en Sciences Sociales"],
 },
 {
-  where: "Université Paris-Sorbonne",
+  where: "Univ. Paris-Sorbonne",
   what: "Histoire",
   when: "2011 - 2013",
   more: ["Double-Licence 3 : Histoire et Information-Communication", "Licence 1 & Licence 2 : Histoire", "Option Histoire de l’Art"],
