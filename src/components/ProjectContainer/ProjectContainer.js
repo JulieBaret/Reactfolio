@@ -15,7 +15,7 @@ const ProjectContainer = ({ project }) => {
         <div className='project-text-border'>
           <div className='project-text-container'>
             <div className='project-title'>
-              <span className='project-name'>"{project.name}"</span>
+              <span className='project-name'>{project.name}</span>
               <span className='project-type'>{project.type}</span>
             </div>
 

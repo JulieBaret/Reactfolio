@@ -38,7 +38,7 @@
   }
 
   .project-type {
-    @apply text-pink font-semibold text-xl md:text-2xl md:font-medium;
+    @apply text-pink uppercase font-semibold text-lg md:text-2xl md:font-medium;
   }
 
   .project-pitch {
