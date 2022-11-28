@@ -6,77 +6,56 @@ const About = () => {
   const { name, description, social } = about
 
   return (
-    <div className="home">
     <div className='about'>
-      <div>
-        <img className='profilePicture' src={profilePicture} alt="profile" />
+      <div className='profile-container'>
+        <img className='profile' src={profilePicture} alt="profile" />
         <div className='shape'></div>
       </div>
-      <div className='about-content'>
-        <div className='name'>
-          <span class="text-4xl font-extrabold text-neutral-700 md:text-5xl mb-4">{name}</span><span className='point'>.</span>
+      <div className='about-container'>
+        <span className='name'>{name}</span><span className='point'>.</span>
+        <div className='job-container'>
+          <span className='job-gradiant'>Software</span><span className='job-gradiant-bg'>Developer</span>
         </div>
-        <div><h1 class="mb-4 text-3xl font-extrabold md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-300">Software </span><span class="bg-gradient-to-r from-red-400 to-red-300 text-neutral-50">Developer</span></h1>
-        {/* <div>
-        <svg fill="red" stroke="blue" stroke-width="2">
-          <text>Engineer</text>
-        </svg>
-          </div> */}
         
+        <div className='pitch-container'>
+          <div className='pitch'>{description}</div>
         </div>
-        <div className='desc'>
-          <p class="mb-6 text-md text-neutral-500 md:text-lg">{description}</p></div>
 
-        <div className='about-links'>
+        <div className='links-container'>
           {/* CV */}
-          <span className="about-link">
+          <span className='links'>
             <a
-              class="inline-flex items-center rounded-full bg-gradient-to-r text-red-400 from-red-400 to-red-300 p-[2px] hover:text-neutral-50 focus:outline-none focus:ring active:text-opacity-75"
+              className='red-button-border'
               href='baret-julie-resume.pdf'
-              target="_blank"
+              target='_blank'
+              rel='noreferrer'
             >
               <span
-                class="inline-flex rounded-full bg-neutral-50 px-8 py-3 text-sm font-medium hover:bg-transparent"
+                className='red-button-text'
               >
                 Resume
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className='button-logo'>
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                 </svg>
-
-
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  class="ml-1.5 h-4 w-4"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  ></path>
-                </svg> */}
               </span>
             </a>
           </span>
 
           {/* GitHub */}
-          <span className="about-link">
+          <span className='links'>
             <a
-              class="inline-flex items-center rounded-full border-2 border-neutral-700 bg-neutral-700 px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-neutral-700 focus:outline-none focus:ring active:opacity-75"
+              className='black-button'
               href={social.github}
-              target="_blank"
-              rel="noreferrer"
+              target='_blank'
+              rel='noreferrer'
             >
               GitHub
 
               <svg
-                class="ml-2 h-5 w-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
+                className='button-logo'
+                fill='currentColor'
+                viewBox='0 0 24 24'
+                aria-hidden='true'
               >
                 <path
                   fill-rule="evenodd"
@@ -88,19 +67,19 @@ const About = () => {
           </span>
 
           {/* LinkedIn */}
-          <span className="about-link">
+          <span className='links'>
             <a
-              class="inline-flex items-center rounded-full border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#0077b5] focus:outline-none focus:ring active:opacity-75"
+              className='blue-button'
               href={social.linkedin}
-              target="_blank"
-              rel="noreferrer"
+              target='_blank'
+              rel='noreferrer'
             >
               LinkedIn
               <svg
-                class="ml-2 h-5 w-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
+                className='button-logo'
+                fill='currentColor'
+                viewBox='0 0 24 24'
+                aria-hidden='true'
               >
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path
@@ -113,7 +92,6 @@ const About = () => {
 
 
         </div>
-      </div>
       </div>
       </div>
 

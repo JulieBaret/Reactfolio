@@ -1,67 +1,141 @@
-/* section about */
-.about {
-  display: flex;
-  flex-direction: row;
-  height: 75vh;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #444444;
-}
-
-/* about picture */
-.profilePicture {
-  width: 10em;
-  background-color: #FFC0BF;
-  position: absolute;
-  z-index:10;
-  border-radius : 65% 35% 32% 68% / 30% 53% 47% 70%;
-}
-
-.shape {
-  width: 10em;
-  height: 10em;
-  background-color: #F87171;
-  position: relative;
-  border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-/* about content */
-.about-content {
-  flex-direction: column;
-}
-
-.name {
-  font-size: 3rem;
-}
-
-.point {
-  color:#F87171;
-  font-weight: 900;
-}
-
-.engine {
-  -webkit-text-fill-color: #FCFCFC; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #F87171;
-}
-
-.desc {
-  max-width: 500px;
-}
-
-/* about links */
-.about-link {
-  margin-right: 1em;
-}
-
-@media (max-width: 850px) {
+@layer components {
+  /* section about */
   .about {
-    flex-direction: column;
-    height: 95vh;
+    display: flex;
+    height: 70vh;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
-  .about-links {
+  /* about picture */
+  .profile {
+    @apply w-32 bg-pink md:w-36 lg:w-44;
+    position: absolute;
+    z-index:10;
+    border-radius : 65% 35% 32% 68% / 30% 53% 47% 70%;
+  }
+
+  /* shape behind picture */
+  .shape {
+    @apply w-32 h-32 bg-red md:w-36 md:h-36 lg:w-44 lg:h-44;
+    position: relative;
+    border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
+  }
+
+
+  /* Julie Baret */
+  .name {
+    @apply mb-3 text-4xl font-extrabold text-black md:text-5xl md:mb-4;
+  }
+
+  /* . */
+  .point {
+    @apply text-red;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  /* Software Developer */
+  .job-container {
+    @apply text-5xl font-extrabold md:text-5xl lg:text-6xl mb-4;
+  }
+
+  /* Software */
+  .job-gradiant {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-red to-middle-pink;
+  }
+
+  /* Developer */
+  .job-gradiant-bg {
+    @apply md:ml-3 bg-gradient-to-r from-red to-middle-pink text-white;
+  }
+
+  /* Description pitch */
+  .pitch-container {
+    max-width: 450px;
+  }
+
+  .pitch {
+    @apply mb-4 text-dark-grey md:text-lg md:mb-6;
+  }
+
+  /* Links */
+  .links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  /* Each link */
+  .links {
+    margin-right: 1em;
+  }
+
+  /* Resume Button */
+  .red-button-border {
+    @apply inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-red from-red to-middle-pink p-[2px] hover:text-white;
+  }
+
+  .red-button-text {
+    @apply inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent;
+  }
+
+  .button-logo {
+    @apply w-5 h-5 ml-2;
+  }
+
+  /* GitHub Button */
+  .black-button {
+    @apply inline-flex items-center rounded-full border-2 border-black bg-black px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-black;
+  }
+
+  /* LinkedIn Button */
+  .blue-button {
+    @apply inline-flex items-center rounded-full border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#0077b5];
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about {
     flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+
+  .point {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .job-gradiant-bg {
+    width: fit-content;
+  }
+  
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    margin-bottom: 1em;
+  }
+
+  .pitch-container {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }

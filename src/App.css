@@ -1,5 +1,5 @@
 main {
-    max-width: 1100px;
+    max-width: 1000px;
     width: 95%;
     justify-content: center;
     margin: 0 auto;
@@ -14,6 +14,10 @@ main {
     margin-top: 4em;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 850px) {
+
 }
 
 
