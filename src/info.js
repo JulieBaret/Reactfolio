@@ -21,7 +21,7 @@ const projects = [
     type: 'Visualisation de données',
     pitch:
       "La parfaite combinaison de l’astrologie et de l’univers de Pokémon",
-    description: "Sur ce site interactif et responsive, il vous suffit de renseigner votre date de naissance pour découvrir votre signe astrologique (c'est-à-dire l'emplacement du Soleil à la naissance) ainsi que le Pokémon qui lui associé !",
+    description: "Sur ce site interactif et responsive, renseignez votre date de naissance pour découvrir votre signe astrologique et le Pokémon qui lui est associé !",
     stack: ['HTML', 'CSS', 'JavaScript', 'Git', 'GitHub', 'API', 'Miro'],
     repo: 'https://github.com/JulieBaret/pokeastro',
     demo: 'https://juliebaret.github.io/pokeastro/',
@@ -32,7 +32,7 @@ const projects = [
     type: 'Réseau social',
     pitch: "Poster, liker et s'abonner",
     description:
-      "Reprise d'une architecture PHP et ajout d'une connexion à une base de données relationnelle ainsi que des features suivantes : inscription et authentification, publication de messages, ajout d'un « J'aime » sur un post, accès aux murs de publication de chaque user, abonnement aux publications des autres users, recherche de messages par mots-clés.",
+      "À partir d'une architecture PHP, connexion à une base de données relationnelle et implémentation des features suivantes : inscription et authentification, publication de messages, ajout de « J'aime » sur les posts, accès aux murs de publication de chaque user, abonnement aux publications des autres users, recherche de messages par mots-clés.",
     stack: ['HTML', 'CSS', 'PHP', 'SQL', 'MySQL', 'MAMP', 'Git', 'GitHub', 'Miro'],
     repo: 'https://github.com/JulieBaret/socialnetwork',
   },
@@ -42,7 +42,7 @@ const projects = [
     type: 'Jeu vidéo',
     pitch: "Dans ce jeu vidéo rétro, un seul panda doit combattre une armée de clones nommés Républicants...",
     description:
-      "Jeu vidéo en 2D développé en Lua sur le logiciel Pico-8 où le·la player peut se déplacer sur une map, ramasser des items, jeter des projectiles et éviter des bots aux déplacements aléatoires pour conserver ses poins de vie.",
+      "Jeu vidéo en 2D développé en Lua sur le logiciel Pico-8 où le·la player peut se déplacer sur une map, ramasser des items, jeter des projectiles et éviter des bots aux déplacements aléatoires pour conserver ses points de vie.",
     stack: ['Lua', 'Pico-8'],
     repo: 'https://github.com/JulieBaret/Panda-vs-Trump',
     demo: 'https://www.lexaloffle.com/bbs/?tid=49844',
@@ -74,7 +74,7 @@ const projects = [
     type: 'E-commerce',
     pitch: "Site de vente de meubles d'occasion",
     description:
-      "Applications back-end et front-end permettant d'afficher les produits d'une base de données NoSQL. Filtre des résultats par prix, couleur, catégorie ou mot-clé. Inscription et authentification. Possibilité, en tant que simple user, de proposer des objets à la vente. Accès réservé à une page admin pour ajouter ou non ces objets au catalogue et gérer les produits.",
+      "Applications back-end et front-end permettant d'afficher les produits d'une base de données NoSQL. Filtre des résultats par prix, couleur, catégorie ou mot-clé. Inscription et authentification. Possibilité, en tant que simple user, de proposer des objets à la vente. Accès réservé à une page admin pour la gestion des produits.",
     stack: ['React', 'Node JS', 'Bootstrap', 'Express JS', 'MongoDB', 'Mongoose'],
     other: 'En cours de déploiement...',
   },
