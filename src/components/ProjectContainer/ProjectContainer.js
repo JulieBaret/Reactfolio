@@ -57,7 +57,7 @@ const ProjectContainer = ({ project }) => {
 
 
               </span>
-              </a> : <p class="font-normal text-neutral-400 mb-6">{project.other}</p>
+              </a> : <p>{project.other}</p>
             }
             {project.demo !== undefined ? <a
               className='red-button-border'

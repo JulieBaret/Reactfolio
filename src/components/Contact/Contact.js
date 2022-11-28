@@ -7,8 +7,9 @@ const Contact = () => {
   const { social } = about
   return (
     <section className='section contact' id='contact'>
-      <div className="contact">
-        <h2 class="text-4xl font-extrabold text-red-400 md:text-5xl mb-4">Let's keep <span class="underline underline-offset-3 decoration-8 decoration-red-300">in touch</span></h2>
+      <hr className='separation'></hr>
+      <div className='contact-container'>
+        <h2 className='title'>Let's keep <span class="underline underline-offset-3 decoration-8 decoration-red-300">in touch</span></h2>
         
         <div className="contact-button">
           <div className="contact-mail">

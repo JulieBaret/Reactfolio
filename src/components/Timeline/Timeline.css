@@ -1,15 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .section-timeline {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    align-self: center;
+    }
+
+    .timeline-line {
+        @apply md:border-l-2 border-red mt-8;
+    }
+    
+    .timeline-point {
+        @apply md:bg-red md:w-4 md:h-4 flex items-center justify-center rounded-full md:-ml-2 md:mr-3 md:-mt-2;
+    }
+
+    .timeline-title {
+        @apply text-red font-semibold text-lg md:text-xl -mt-2;
+    }
+
+    .timeline-container {
+        @apply md:ml-6 mb-2 pb-6;
+    }
+
+    .timeline-date {
+        @apply text-middle-pink text-sm;
+    }
+
+    .timeline-where {
+        @apply inline-block bg-middle-pink text-white font-bold md:text-lg leading-tight uppercase;
+    }
+}
+
 .timeline {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    max-width: 650px;
+    max-width: 600px;
     margin-left: 5em;
     margin-bottom: 1em;
 }
 
 
 @media (max-width: 850px) {
+    .section-timeline {
+        width: 80vw;
+    }
+
     .timeline {
         margin-left: 1em;
         margin-right: 1em;

@@ -6,7 +6,7 @@
 @layer components {
 
   .design-block {
-    @apply mb-8 text-dark-grey text-center md:text-left md:mb-4;
+    @apply mt-8 text-dark-grey text-center md:text-left md:mb-4;
   }
 
   .card {

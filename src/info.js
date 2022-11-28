@@ -11,7 +11,7 @@ const about = {
 const bio = {
   paraph1: "Ancienne journaliste vidéo, j'ai décidé de me reconvertir dans la programmation pour développer des outils numériques ayant un impact positif sur la société.",
   paraph2: "Aujourd'hui apprenante à Ada Tech School, école de code guidée par la pédagogie Montessori, je travaille en agilité sur une succession de projets de groupe.",
-  paraph3: "Afin de solidifier mes compétences, je recherche une alternance en entreprise de 12 mois au poste de développeuse full-stack.",
+  paraph3: "Afin de poursuivre mon apprentissage, je recherche une alternance en entreprise de 12 mois au poste de développeuse full-stack.",
 }
 
 const projects = [
@@ -117,13 +117,13 @@ const experience = [
   more: ["Rédaction quotidienne d’articles pour le site internet tetu.com", "Auteure de chroniques sur l'actualité culturelle et sociétale pour le magazine bimestriel TÊTU"],
 },
 {
-  where: "Institut Français de Presse (IFP)",
+  where: "Institut Français de Presse",
   what: "Sciences des médias",
   when: "2013 - 2016",
   more: ["Master 1 & 2 : Médias, Langages et Société", "Échange universitaire d'un semestre à l'Université Laval à Québec, Canada", "Option Études de genre à l'École des Hautes Études en Sciences Sociales"],
 },
 {
-  where: "Université Paris-Sorbonne (Paris IV)",
+  where: "Université Paris-Sorbonne",
   what: "Histoire",
   when: "2011 - 2013",
   more: ["Double-Licence 3 : Histoire et Information-Communication", "Licence 1 & Licence 2 : Histoire", "Option Histoire de l’Art"],

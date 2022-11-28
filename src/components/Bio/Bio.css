@@ -1,9 +1,54 @@
-.bio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.section bio {
-    height: 100vh;
+
+@layer components {
+  /* section about */
+    .bio {
+    display: flex;
+    min-height: 100vh;
+    width: 90vw;
+    align-self: center;
+    }
+
+    .separation {
+        @apply my-4 mx-auto w-48 h-1 bg-light-grey rounded border-0;
+    }
+
+    .bio-border {
+        @apply mt-16 mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8;
+    }
+
+    .bio-container {
+        @apply grid grid-cols-1 lg:h-screen lg:grid-cols-2;
+    }
+
+    .bio-picture-border {
+        @apply relative z-10 lg:py-16;
+    }
+
+    .bio-picture-container {
+        @apply relative h-64 sm:h-80 lg:h-4/5;
+    }
+
+    .bio-picture {
+        @apply absolute inset-0 h-full w-full object-cover;
+    }
+
+    .bg-bio {
+        @apply relative flex items-center bg-light-grey;
+    }
+
+    .bg-left-bio {
+        @apply hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-light-grey;
+    }
+
+    .bio-text-container {
+        @apply p-8 sm:p-16 lg:p-24;
+    }
+
+    .bio-title {
+        @apply text-4xl font-extrabold text-red md:text-5xl mb-4;
+    }
 }

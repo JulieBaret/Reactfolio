@@ -1,14 +1,36 @@
-.contact-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 8em;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.contact-mail, .contact-linkedin, .contact-github {
-    margin-bottom: 1em
-}
 
-.contact {
-    min-height: 60vh;
+@layer components {
+
+    /* section about */
+    .contact {
+        @apply md:mt-6 ;
+
+    }
+
+    .contact-container {
+        @apply md:mt-14 mt-6;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        align-self: center;
+        justify-content: space-between;
+    }
+
+    .contact-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 8em;
+    }
+
+    .contact-mail,
+    .contact-linkedin,
+    .contact-github {
+        margin-bottom: 1em
+    }
+
 }
