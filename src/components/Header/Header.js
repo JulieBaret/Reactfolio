@@ -5,7 +5,7 @@ export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="flex justify-end py-11 px-16">
+        <div className="flex justify-end py-10 px-10">
 
             <nav>
                 <section className="MOBILE-MENU flex lg:hidden">

@@ -6,7 +6,6 @@ import './Bio.css'
 const Bio = () => {
     return (
         <section className='section bio'>
-            <hr className='separation'></hr>
             <div className='bio-border'>
                 <div className='bio-container'>
                     <div className='bio-picture-border'>

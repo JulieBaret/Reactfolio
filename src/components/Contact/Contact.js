@@ -1,29 +1,29 @@
 import { contact } from '../../info'
 import './Contact.css'
 import { about } from '../../info'
+import Footer from '../Footer/Footer'
 
 const Contact = () => {
   if (!contact.email) return null
   const { social } = about
   return (
     <section className='section contact' id='contact'>
-      <hr className='separation'></hr>
       <div className='contact-container'>
-        <h2 className='title'>Let's keep <span class="underline underline-offset-3 decoration-8 decoration-red-300">in touch</span></h2>
-        
+        <div className='title'>Let's keep <span class="underline underline-offset-3 decoration-8 decoration-red">in touch</span></div>
+
         <div className="contact-button">
           <div className="contact-mail">
             <a
-              class="inline-flex items-center rounded-full bg-gradient-to-r text-red-400 from-red-400 to-red-300 p-[2px] hover:text-neutral-50 focus:outline-none focus:ring active:text-opacity-75"
+              className='red-button-border'
               href={`mailto:${contact.email}`}
             >
               <span
-                class="inline-flex rounded-full bg-neutral-50 px-8 py-3 text-sm font-medium hover:bg-transparent"
+                className='red-button-text'
               >
                 Email Me
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-</svg>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
 
 
               </span>
@@ -31,7 +31,7 @@ const Contact = () => {
           </div>
           <div className="contact-linkedin">
             <a
-              class="inline-flex items-center rounded-full border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#0077b5] focus:outline-none focus:ring active:opacity-75"
+              className='blue-button'
               href={social.linkedin}
               target="_blank"
               rel="noreferrer"
@@ -51,8 +51,8 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-github">
-          <a
-              class="inline-flex items-center rounded-full border-2 border-neutral-700 bg-neutral-700 px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-neutral-700 focus:outline-none focus:ring active:opacity-75"
+            <a
+              className='black-button'
               href={social.github}
               target="_blank"
               rel="noreferrer"
@@ -74,8 +74,9 @@ const Contact = () => {
             </a>
 
           </div>
-          
+
         </div>
+        <Footer />
 
       </div>
       {/* </div> */}
