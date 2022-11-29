@@ -52,7 +52,7 @@
     }
 
     .bio-paraph {
-        @apply font-extralight text-sm md:text-base text-black mb-6;
+        @apply font-light text-sm md:text-base text-dark-grey mb-6;
     }
 
     .bio-conclusion {
