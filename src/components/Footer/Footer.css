@@ -10,6 +10,6 @@
     }
     
     .heart {
-        @apply ml-1 mr-1 w-5 h-5;
+        @apply ml-1 mr-1 w-3 h-3;
     }
 }

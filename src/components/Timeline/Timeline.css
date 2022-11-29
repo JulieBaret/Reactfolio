@@ -12,27 +12,30 @@
     }
 
     .timeline-line {
-        @apply border-l-2 border-red mt-8;
+        @apply border-l-2 border-pink mt-8;
     }
     
     .timeline-point {
-        @apply bg-red w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-4 md:-mt-2;
+        @apply bg-pink w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-4 md:-mt-2;
     }
 
     .timeline-title {
-        @apply text-red leading-5 font-semibold text-lg md:text-xl md:-mt-2 -mt-4 flex flex-wrap;
+        @apply text-dark-grey leading-5 font-semibold text-lg md:text-xl md:-mt-2 -mt-4 flex flex-wrap;
     }
 
     .timeline-container {
-        @apply ml-6 mb-2 pb-6;
-    }
+        @apply ml-6 mb-2 pb-6;    }
 
     .timeline-date {
-        @apply text-middle-pink text-sm;
+        @apply inline-block text-middle-pink uppercase text-xs font-medium md:font-light md:text-base;
     }
 
     .timeline-where {
-        @apply inline-block bg-middle-pink text-white font-bold md:text-lg leading-tight uppercase;
+        @apply inline-block text-red font-bold md:text-lg leading-tight mr-2;
+    }
+
+    .timeline-what {
+        @apply text-dark-grey mt-2 text-sm;
     }
 }
 

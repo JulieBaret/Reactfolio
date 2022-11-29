@@ -25,10 +25,10 @@ const Bio = () => {
 
                         <div className='bio-text-container'>
                         <h2 className='bio-title'>WhoAmI</h2>
-                        <p className='project-description'>{bio.paraph1}</p>
-                        <p className='project-description'>{bio.paraph2}</p>
+                        <p className='bio-paraph'>{bio.paraph1}</p>
+                        <p className='bio-paraph'>{bio.paraph2}</p>
                         
-                        <p className='pitch'>{bio.paraph3}</p>
+                        <p className='bio-conclusion'>{bio.paraph3}</p>
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@
   /* section about */
   .about {
     display: flex;
-    height: 90vh;
+    height: 70vh;
     width: 90vw;
     justify-content: space-evenly;
     align-items: center;

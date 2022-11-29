@@ -17,13 +17,14 @@ const Timeline = () => {
                                 <div className='timeline-title'>{exp.what}</div>
                             </div>
                             <div className='timeline-container'>
-                                <p className='timeline-date'>{exp.when}</p>
                                 <p className='timeline-where'>{exp.where}</p>
+                                <p className='timeline-date'>{exp.when}</p>
+                                
                                 {/* <p class="text-neutral-500 mt-2 mb-4">{exp.more}</p> */}
                                 <ul class=''>
                                     {exp.more.map((item) => (
                                         <li key={uniqid()}>
-                                            <p class="text-dark-grey mt-2 text-sm">{item}</p>
+                                            <p className='timeline-what'>› {item}</p>
                                         </li>
                                     ))}
                                 </ul>

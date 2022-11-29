@@ -15,12 +15,12 @@ const ProjectContainer = ({ project }) => {
         <div className='project-text-border'>
           <div className='project-text-container'>
             <div className='project-title'>
-              <span className='project-name'>{project.name}</span>
+              <span className='project-name'>“{project.name}”</span>
               <span className='project-type'>{project.type}</span>
             </div>
 
-            <p className='project-pitch'>{project.pitch}</p>
-            <p className='project-description'>{project.description}</p>
+            <p className='bio-conclusion'>{project.pitch}</p>
+            <p className='bio-paraph'>{project.description}</p>
             {project.stack && (
               <ul className='stack'>
                 {project.stack.map((item) => (

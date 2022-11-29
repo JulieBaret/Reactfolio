@@ -10,7 +10,9 @@ module.exports = {
       pink: '#FFC0BF',
       grey: '#A8A398',
       'light-grey': '#EBEDEF',
-      'dark-grey': '#878787',
+      'middle-dark-grey': '#878787',
+      'dark-grey': '#6B6B6B',
+      'very-dark-grey': '#4F4F4F',
       black: '#404040',
       white: '#FCFCFC',
       transparent: 'transparent'

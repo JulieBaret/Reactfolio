@@ -95,7 +95,7 @@ const experience = [
 {
   where: "Mairie de Paris",
   what: "Programmer en Python : s'initier",
-  when: "Octobre 2021 - Février 2022",
+  when: "Oct. 2021 - Fév. 2022",
   more: ["Cours du soir pour adultes"]
 },
 {
@@ -107,23 +107,23 @@ const experience = [
 {
   where: "SOS homophobie",
   what: "Rédactrice bénévole",
-  when: "Septembre 2020 - Mai 2022",
+  when: "Sept. 2020 - Mai 2022",
   more: ["Participation à la rédaction, l’élaboration et la diffusion du Rapport annuel de SOS homophobie qui documente l’évolution des LGBTIphobies en France"],
 },
 {
   where: "Têtu",
   what: "Journaliste plurimédia",
-  when: "Mars 2016 - Février 2018",
+  when: "Mars 2016 - Fév. 2018",
   more: ["Rédaction quotidienne d’articles pour le site internet tetu.com", "Auteure de chroniques sur l'actualité culturelle et sociétale pour le magazine bimestriel TÊTU"],
 },
 {
-  where: "IFP - Institut Français de Presse (Univ. Paris 2)",
+  where: "Institut Français de Presse",
   what: "Sciences des médias",
   when: "2013 - 2016",
   more: ["Master 1 & 2 : Médias, Langages et Société", "Échange universitaire d'un semestre à l'Université Laval à Québec, Canada", "Option Études de genre à l'École des Hautes Études en Sciences Sociales"],
 },
 {
-  where: "Univ. Paris-Sorbonne",
+  where: "Université Paris-Sorbonne",
   what: "Histoire",
   when: "2011 - 2013",
   more: ["Double-Licence 3 : Histoire et Information-Communication", "Licence 1 & Licence 2 : Histoire", "Option Histoire de l’Art"],

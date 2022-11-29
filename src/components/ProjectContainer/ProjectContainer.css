@@ -38,7 +38,7 @@
   }
 
   .project-type {
-    @apply text-pink uppercase font-semibold text-lg md:text-2xl md:font-medium;
+    @apply md:text-middle-pink text-pink uppercase font-semibold text-lg md:text-2xl md:font-light;
   }
 
   .project-pitch {
@@ -59,7 +59,7 @@
     @apply mb-2 md:mb-3;
   }
 
-    /* Resume Button */
+    /* Repo Button */
     .black-button-border {
       @apply inline-flex items-center rounded-full transition-colors bg-black text-black p-[2px] mr-2 hover:text-white;
     }
@@ -67,6 +67,7 @@
     .black-button-text {
       @apply inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent;
     }
+
 }
 
 @media (max-width: 850px) {
