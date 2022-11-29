@@ -3,7 +3,7 @@ const about = {
   description:
     "Développeuse full-stack en cours de formation, riche d'expériences dans les médias et la génération de contenus digitaux.",
   social: {
-    linkedin: 'https://linkedin.com/in/juliebaret',
+    linkedin: 'https://www.linkedin.com/in/julie-baret/',
     github: 'https://github.com/JulieBaret',
   },
 }
