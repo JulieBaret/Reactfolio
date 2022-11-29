@@ -42,7 +42,7 @@
   }
 
   .project-pitch {
-    @apply font-medium text-dark-grey leading-5 md:leading-6 md:mb-0 mb-3 text-base md:text-lg;
+    @apply font-medium text-very-dark-grey leading-5 md:leading-6 md:mb-0 mb-3 text-base md:text-lg;
   }
 
   .project-description {
