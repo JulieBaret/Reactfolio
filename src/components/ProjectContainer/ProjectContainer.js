@@ -19,7 +19,7 @@ const ProjectContainer = ({ project }) => {
               <span className='project-type'>{project.type}</span>
             </div>
 
-            <p className='bio-conclusion'>{project.pitch}</p>
+            <p className='project-pitch'>{project.pitch}</p>
             <p className='bio-paraph'>{project.description}</p>
             {project.stack && (
               <ul className='stack'>

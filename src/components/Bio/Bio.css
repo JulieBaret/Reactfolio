@@ -52,11 +52,11 @@
     }
 
     .bio-paraph {
-        @apply font-extralight text-black mb-6;
+        @apply font-extralight text-sm md:text-base text-black mb-6;
     }
 
     .bio-conclusion {
         /* @apply mb-4 text-black md:text-lg md:mb-6; */
-        @apply font-medium text-dark-grey leading-6 text-lg;
+        @apply font-medium text-dark-grey leading-6 text-base md:text-lg;
     }
 }
