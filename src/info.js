@@ -102,7 +102,7 @@ const experience = [
   where: "Konbini",
   what: "Journaliste et cheffe de rubrique",
   when: "Mai 2018 - Mai 2022",
-  more: ["Création et gestion du programme Konbini Stories diffusé sur Snapchat et suivi par 1 million d’abonné·e·s en 2022", "Interviews, cadrage et montage vidéo, graphisme, recherche et rédaction", "Préparation des reportages de Konbini News"],
+  more: ["Création et gestion du programme « Konbini Stories » diffusé sur Snapchat et suivi par 1 million d’abonné·e·s en 2022", "Interviews, cadrage et montage vidéo, graphisme, recherche et rédaction", "Préparation des reportages de Konbini News"],
 },
 {
   where: "SOS homophobie",
