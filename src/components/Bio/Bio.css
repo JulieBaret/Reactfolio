@@ -48,15 +48,15 @@
     }
 
     .bio-title {
-        @apply text-4xl font-extrabold text-red md:text-5xl mb-4;
+        @apply text-4xl 2xl:text-6xl font-extrabold text-red md:text-5xl mb-4;
     }
 
     .bio-paraph {
-        @apply text-sm md:text-base text-dark-grey mb-6;
+        @apply text-sm md:text-base 2xl:text-lg text-dark-grey mb-6;
     }
 
     .bio-conclusion {
         /* @apply mb-4 text-black md:text-lg md:mb-6; */
-        @apply font-medium text-very-dark-grey leading-6 text-base md:text-lg;
+        @apply font-medium text-very-dark-grey leading-6 text-base 2xl:text-xl md:text-lg;
     }
 }

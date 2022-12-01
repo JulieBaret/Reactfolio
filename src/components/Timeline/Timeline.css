@@ -20,22 +20,22 @@
     }
 
     .timeline-title {
-        @apply text-very-dark-grey leading-5 font-semibold text-lg md:text-xl md:-mt-2 -mt-4 flex flex-wrap;
+        @apply text-very-dark-grey leading-5 font-semibold text-lg md:text-xl 2xl:text-2xl md:-mt-2 -mt-4 flex flex-wrap;
     }
 
     .timeline-container {
         @apply ml-6 mb-2 pb-6;    }
 
     .timeline-date {
-        @apply inline-block text-middle-pink uppercase text-xs font-medium md:font-light md:text-base;
+        @apply inline-block text-middle-pink uppercase text-xs font-medium md:font-light md:text-base 2xl:text-lg;
     }
 
     .timeline-where {
-        @apply inline-block text-red font-bold md:text-lg leading-tight mr-2;
+        @apply inline-block text-red font-bold md:text-lg 2xl:text-xl leading-tight mr-2;
     }
 
     .timeline-what {
-        @apply text-dark-grey mt-2 text-sm;
+        @apply text-dark-grey mt-2 text-sm 2xl:text-base;
     }
 }
 

@@ -30,7 +30,7 @@
   }
 
   .project-title {
-    @apply text-3xl md:text-2xl font-bold mb-3 flex flex-col lg:flex-wrap lg:flex-row;
+    @apply text-3xl 2xl:text-4xl md:text-2xl font-bold mb-3 flex flex-col lg:flex-wrap lg:flex-row;
   }
 
   .project-name {
@@ -38,11 +38,11 @@
   }
 
   .project-type {
-    @apply md:text-middle-pink text-pink uppercase font-semibold text-lg md:text-2xl md:font-light;
+    @apply md:text-middle-pink text-pink uppercase font-semibold text-lg md:text-2xl 2xl:text-3xl md:font-light;
   }
 
   .project-pitch {
-    @apply font-medium text-very-dark-grey leading-5 md:leading-6 md:mb-0 mb-3 text-base md:text-lg;
+    @apply font-medium text-very-dark-grey leading-5 md:leading-6 md:mb-0 mb-3 text-base 2xl:text-xl md:text-lg;
   }
 
   .project-description {
@@ -50,7 +50,7 @@
   }
 
   .badge {
-    @apply bg-light-grey text-black text-sm font-medium mr-2 md:mb-4 px-3 py-2 rounded-full;
+    @apply bg-light-grey text-black text-sm 2xl:text-base font-medium mr-2 md:mb-4 px-3 py-2 rounded-full;
   }
 
   .stack {
@@ -65,7 +65,7 @@
     }
   
     .black-button-text {
-      @apply inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent;
+      @apply inline-flex rounded-full 2xl:text-lg bg-white px-8 py-3.5 text-sm font-medium hover:bg-transparent;
     }
 
 }

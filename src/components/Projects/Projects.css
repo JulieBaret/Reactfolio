@@ -5,7 +5,7 @@
 
 @layer components {
   .title {
-    @apply text-4xl font-extrabold text-red lg:text-5xl;
+    @apply text-4xl font-extrabold text-red lg:text-5xl 2xl:text-6xl;
   }
 
   .projects {

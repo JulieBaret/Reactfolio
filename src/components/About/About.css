@@ -12,11 +12,13 @@
     justify-content: space-evenly;
     align-items: center;
     align-self: center;
+    @apply md:mt-6 2xl:mt-16;
+    /* @apply md:mt-6; */
   }
 
   /* about picture */
   .profile {
-    @apply w-32 bg-pink md:w-36 lg:w-44;
+    @apply w-32 bg-pink md:w-36 lg:w-44 2xl:w-60;
     @apply -mt-4 md:-mt-0;
     position: absolute;
     z-index:10;
@@ -25,8 +27,8 @@
 
   /* shape behind picture */
   .shape {
-    @apply w-32 h-32 bg-red md:w-36 md:h-36 lg:w-44 lg:h-44;
-    @apply -mt-6 md:-mt-0;
+    @apply w-32 h-32 bg-red md:w-36 md:h-36 lg:w-44 lg:h-44 2xl:w-60 2xl:h-60;
+    @apply -mt-4 md:-mt-0;
     position: relative;
     border-radius : 35% 65% 63% 37% / 30% 77% 23% 70% ; 
   }
@@ -34,19 +36,19 @@
 
   /* Julie Baret */
   .name {
-    @apply mb-3 text-4xl font-extrabold text-black md:text-5xl md:mb-4;
+    @apply mb-3 text-4xl font-extrabold text-black md:text-5xl md:mb-4 2xl:text-6xl;
   }
 
   /* . */
   .point {
-    @apply text-red;
+    @apply text-red text-5xl 2xl:text-6xl;
     font-weight: 900;
-    font-size: 3rem;
+    /* font-size: 3.5rem; */
   }
 
   /* Software Developer */
   .job-container {
-    @apply text-5xl font-extrabold md:text-5xl lg:text-6xl mb-4;
+    @apply text-5xl font-extrabold md:text-5xl lg:text-6xl 2xl:text-7xl mb-4 2xl:leading-snug;
   }
 
   /* Software */
@@ -62,10 +64,11 @@
   /* Description pitch */
   .pitch-container {
     max-width: 450px;
+    @apply 2xl:max-w-xl;
   }
 
   .pitch {
-    @apply mb-4 text-dark-grey md:text-lg md:mb-6;
+    @apply mb-4 text-dark-grey md:text-lg md:mb-6 2xl:text-2xl;
   }
 
   /* Links */
@@ -86,7 +89,7 @@
   }
 
   .red-button-text {
-    @apply inline-flex rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent;
+    @apply inline-flex rounded-full bg-white px-8 py-3.5 text-sm 2xl:text-lg font-medium hover:bg-transparent;
   }
 
   .button-logo {
@@ -95,12 +98,12 @@
 
   /* GitHub Button */
   .black-button {
-    @apply inline-flex items-center rounded-full border-2 border-black bg-black px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-black;
+    @apply inline-flex 2xl:text-lg items-center rounded-full border-2 border-black bg-black px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-black;
   }
 
   /* LinkedIn Button */
   .blue-button {
-    @apply inline-flex items-center rounded-full border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#0077b5];
+    @apply inline-flex 2xl:text-lg items-center rounded-full border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#0077b5];
   }
 
 }

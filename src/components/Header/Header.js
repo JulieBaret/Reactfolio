@@ -50,7 +50,7 @@ export default function Header() {
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-normal text-dark-grey">
+                <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-normal 2xl:text-lg text-dark-grey">
                     <li>
                         <a href="#projects">Projets</a>
                     </li>
