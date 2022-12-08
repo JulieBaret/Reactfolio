@@ -89,7 +89,7 @@
   }
 
   .red-button-text {
-    @apply inline-flex rounded-full bg-white px-8 py-3.5 text-sm 2xl:text-lg font-medium hover:bg-transparent;
+    @apply inline-flex rounded-full bg-white px-6 py-3 text-sm 2xl:text-lg font-medium hover:bg-transparent;
   }
 
   .button-logo {

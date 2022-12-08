@@ -65,7 +65,7 @@
     }
   
     .black-button-text {
-      @apply inline-flex rounded-full 2xl:text-lg bg-white px-8 py-3.5 text-sm font-medium hover:bg-transparent;
+      @apply inline-flex rounded-full 2xl:text-lg bg-white px-6 py-3 text-sm font-medium hover:bg-transparent;
     }
 
 }
