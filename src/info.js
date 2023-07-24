@@ -11,7 +11,7 @@ const about = {
 const bio = {
   paraph1: "Ancienne journaliste vidéo, j'ai décidé de me reconvertir dans la programmation pour développer des outils numériques ayant un impact positif sur la société.",
   paraph2: "Aujourd'hui apprenante à Ada Tech School, école de code guidée par la pédagogie Montessori, je travaille en agilité sur une succession de projets de groupe.",
-  paraph3: "Afin de poursuivre mon apprentissage, je recherche une alternance en entreprise de 12 mois au poste de développeuse full-stack.",
+  paraph3: "Afin de poursuivre mon apprentissage, je recherche une alternance en entreprise au poste de développeuse full-stack.",
 }
 
 const projects = [
