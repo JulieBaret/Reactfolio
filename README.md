@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+<!-- HEADER -->
+<div align="center">
+  <p align="center">
+  <a href="#about-the-project">About the project</a> &nbsp;&bull;&nbsp;
+  <a href="#getting-started">Getting Started</a> &nbsp;&bull;&nbsp;
+  <a href="#usage">Usage</a> &nbsp;&bull;&nbsp;
+  <a href="#test">Test</a>  &nbsp;&bull;&nbsp;
+  <a href="#documentation">Documentation</a>
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    Julie Baret • Portfolio
+  </p>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#folder-structure">Folder structure</a></li>
+      </ul>
+    </li>
+    <li><a href="#test">Test</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## ✨ About the project
+<p>
+Hi there 👋 Here is my first portfolio built with React.js.
+</p>
 
-### `npm start`
+### Screencapture:
+<p align="center">
+<img alt="app demo" src='./assets/screencapture.gif')>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built with:
+- ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- GETTING STARTED -->
+## 🛠 Getting Started
+Clone down this repository.
 
-### `npm test`
+### Prerequisites:
+You will need `node` and `npm` installed globally on your machine.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation:
 
-### `npm run build`
+`npm install` 
+<p></p><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- USAGE -->
+## 🥋 Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To launch the project, you'll first have to __start the server__ with this command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`  
 
-### `npm run eject`
+Then, you'll be able to __visit the app__ at:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Folder structure:
+```
+.
+├── src .   » Project source code
+|       |
+|       ├── layouts   » Layouts of the projet (Header, Body, Footer)
+|       |
+|       └── components    » Several components including ui elements such as Button, Category Column and Status Column
+|       
+├── public    » Public assets
+|
+├── assets    » Logo and screencapture of the project for the README.md file
+|
+├── README.md   » Current file
+|
+├── package-lock.json
+|
+├── package.json
+|
+├── tailwind.config.js    » Tailwind configuration file
+|
+└── .gitignore
+```
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- DOCUMENTATION -->
+## 📚 Documentation
+- [Tailwind documentation](https://tailwindcss.com/)
+- [React.js documentation](https://beta.reactjs.org/)
