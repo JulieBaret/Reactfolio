@@ -36,7 +36,7 @@ Hi there 👋 Here is my first portfolio built with React.js.
 
 ### Screencapture:
 <p align="center">
-<img alt="app demo" src='./assets/screencapture.gif')>
+<img alt="app demo" src='public/assets/screencapture.gif')>
 </p>
 
 ### Built with:
@@ -73,13 +73,11 @@ Then, you'll be able to __visit the app__ at:
 .
 ├── src .   » Project source code
 |       |
-|       ├── layouts   » Layouts of the projet (Header, Body, Footer)
-|       |
-|       └── components    » Several components including ui elements such as Button, Category Column and Status Column
+|       └── components    » Several components including layouts (Header, Footer, etc.) and containers
 |       
 ├── public    » Public assets
 |
-├── assets    » Logo and screencapture of the project for the README.md file
+├── assets    » Projects overview and screencapture of the app for the README.md file
 |
 ├── README.md   » Current file
 |
