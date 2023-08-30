@@ -1,17 +1,5 @@
 <!-- HEADER -->
-<div align="center">
-  <p align="center">
-  <a href="#about-the-project">About the project</a> &nbsp;&bull;&nbsp;
-  <a href="#getting-started">Getting Started</a> &nbsp;&bull;&nbsp;
-  <a href="#usage">Usage</a> &nbsp;&bull;&nbsp;
-  <a href="#test">Test</a>  &nbsp;&bull;&nbsp;
-  <a href="#documentation">Documentation</a>
-  </p>
-
-  <p align="center">
-    Julie Baret • Portfolio
-  </p>
-</div>
+# Julie Baret • Portfolio
 
 <!-- TABLE OF CONTENTS -->
 <details>
