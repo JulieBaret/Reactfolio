@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## ✨ About the project
 <p>
-Hi there 👋 I'm super excited to show you one of my first React.js projects : my personal portfolio !
+Hi there 👋 I'm super excited to show you one of my first React.js projects : my portfolio !
 </p>
 <p>
 Here at https://juliebaret.vercel.app/
