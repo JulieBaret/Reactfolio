@@ -31,7 +31,10 @@
 <!-- ABOUT THE PROJECT -->
 ## ✨ About the project
 <p>
-Hi there 👋 Here is my first portfolio built with React.js.
+Hi there 👋 I'm super excited to show you one of my first React.js projects : my personal portfolio !
+</p>
+<p>
+Here at https://juliebaret.vercel.app/
 </p>
 
 ### Screencapture:
