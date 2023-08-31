@@ -23,7 +23,6 @@
         <li><a href="#folder-structure">Folder structure</a></li>
       </ul>
     </li>
-    <li><a href="#test">Test</a></li>
     <li><a href="#documentation">Documentation</a></li>
   </ol>
 </details>
