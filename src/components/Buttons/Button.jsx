@@ -1,18 +1,28 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { titleToLogo } from '../utils';
 
-const Button = ({ title, color, transitionColor, url }) => {
+const Button = ({ title, color, transitionColor, url, filledLogo, gradient }) => {
 
     return (
         <span className='mr-[1em] group'>
             <a
-                className={`inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-${color} from-${color} to-${transitionColor} p-[2px] hover:text-white`}
+                className={gradient ? `inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-${color} from-${color} to-${transitionColor} p-[2px] hover:text-white` : `inline-flex items-center rounded-full transition-colors bg-${color} text-${color} p-[2px] mr-2 hover:text-white`}
                 href={url}
                 target='_blank'
                 rel='noreferrer'
             >
             <span className='inline-flex rounded-full bg-white px-6 py-3 text-sm 2xl:text-lg font-medium hover:bg-transparent'>
                 {title}
+                {filledLogo ? 
+                <svg 
+                    className="w-5 h-5 ml-2"
+                    class="ml-2 h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    dangerouslySetInnerHTML={{ __html: titleToLogo[title] }}>
+                </svg> :
                 <svg 
                     xmlns="http://www.w3.org/2000/svg"
                     className={`w-5 h-5 ml-2`}
@@ -22,6 +32,7 @@ const Button = ({ title, color, transitionColor, url }) => {
                     stroke="currentColor"
                     dangerouslySetInnerHTML={{ __html: titleToLogo[title] }}>
                 </svg>
+                }
             </span>
             </a>
         </span>
@@ -30,6 +41,23 @@ const Button = ({ title, color, transitionColor, url }) => {
 
 export default Button;
 
+
+//   /* Resume Button */
+//   .red-button-border {
+//     @apply inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-red from-red to-middle-pink p-[2px] hover:text-white;
+//   }
+
+//   .red-button-text {
+//     @apply inline-flex rounded-full bg-white px-6 py-3 text-sm 2xl:text-lg font-medium hover:bg-transparent;
+//   }
+
+// .black-button-border {
+//     @apply inline-flex items-center rounded-full transition-colors bg-black text-black p-[2px] mr-2 hover:text-white;
+//   }
+
+//   .black-button-text {
+//     @apply inline-flex rounded-full 2xl:text-lg bg-white px-6 py-3 text-sm font-medium hover:bg-transparent;
+//   }
 
  {/* CV */}
 //  <span className='links'>
@@ -51,11 +79,3 @@ export default Button;
 //  </a>
 // </span>
 
-//   /* Resume Button */
-//   .red-button-border {
-//     @apply inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-red from-red to-middle-pink p-[2px] hover:text-white;
-//   }
-
-//   .red-button-text {
-//     @apply inline-flex rounded-full bg-white px-6 py-3 text-sm 2xl:text-lg font-medium hover:bg-transparent;
-//   }
