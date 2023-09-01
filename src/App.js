@@ -3,10 +3,10 @@ import Projects from './sections/Projects/Projects'
 import Contact from './sections/Contact/Contact'
 import Footer from './layouts/Footer'
 import Bio from './sections/Bio/Bio'
-import Header from './layouts/Header/Header'
+import Header from './layouts/Header'
 import Timeline from './sections/Timeline/Timeline'
 import './App.css'
-import ScrollToTheTop from './components/ScrollToTheTop/ScrollToTheTop'
+import ScrollToTheTop from './components/ScrollToTheTop'
 import ArrowIcon from './components/Icons/ArrowIcon'
 
 const App = () => {
