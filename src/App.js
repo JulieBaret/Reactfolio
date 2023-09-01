@@ -1,13 +1,9 @@
-import About from './sections/About/About'
-import Projects from './sections/Projects/Projects'
-import Contact from './sections/Contact/Contact'
 import Footer from './layouts/Footer'
-import Bio from './sections/Bio/Bio'
 import Header from './layouts/Header'
-import Timeline from './sections/Timeline/Timeline'
 import './App.css'
 import ScrollToTheTop from './components/ScrollToTheTop'
 import ArrowIcon from './components/Icons/ArrowIcon'
+import Body from './layouts/Body'
 
 const App = () => {
   return (
@@ -16,11 +12,7 @@ const App = () => {
 
       <main>
         <Header />
-        <About />
-        <Projects />
-        <Bio />
-        <Timeline />
-        <Contact />
+        <Body />
         <Footer />
       </main>
 
