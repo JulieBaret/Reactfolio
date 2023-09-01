@@ -2,31 +2,31 @@
 import { useState, useCallback } from 'react';
 import { css } from '@emotion/react';
 
+const elementStyle = css`
+display: hidden;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: white;
+z-index: 20;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+`
+
 const HamburgerMenu = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-    const handleClick = useCallback(() => {
-        setIsMobileMenuOpen((prev) => !prev)
-    }, []);
 
     const closeMenu = useCallback(() => {
         setIsMobileMenuOpen(false);
     }, []);
 
-    const elementStyle = css`
-    display: ${isMobileMenuOpen ? "block" : "none"};
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: white;
-    z-index: 20;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    `
+    const handleClick = useCallback(() => {
+        setIsMobileMenuOpen((prev) => !prev)
+    }, []);
 
     return (
         <nav>
@@ -43,6 +43,8 @@ const HamburgerMenu = () => {
                 </div>
 
                 {/* Mobile Menu */}
+                {isMobileMenuOpen &&
+                <>
                 <div css={elementStyle}>
                     {/* Mobile close button */}
                     <div
@@ -76,10 +78,13 @@ const HamburgerMenu = () => {
                         </li>
                     </ul>
                 </div>
+                </>
+                }
+
             </section>
 
             {/* Desktop */}
-            <ul className="hidden space-x-8 lg:flex font-normal 2xl:text-lg text-dark-grey">
+            <ul className="hidden space-x-8 lg:flex font-normal 2xl:text-lg text-dark-grey text-right">
                 <li>
                     <a href="#projects">Projets</a>
                 </li>
