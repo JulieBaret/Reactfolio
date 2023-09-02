@@ -54,7 +54,7 @@ const About = () => {
           <div className='mb-4 text-dark-grey md:text-lg md:mb-6 2xl:text-2xl'>{description}</div>
         </div>
         <div className='flex flex-col justify-start md:flex-row gap-3 md-gap-0'>
-          <UnfilledButton title="Resume" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
+          <UnfilledButton title="Resume" url="assets/baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
           <FilledButton title="Github" color="black" url={social.github} />
           <FilledButton title="Linkedin" color="blue" url={social.linkedin} filledLogo={true} />
         </div>
