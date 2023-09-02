@@ -26,10 +26,10 @@ const ProjectDetails = ({ project }) => {
                             </ul>
                         )}
                         {project.repo &&
-                            <UnfilledButton title="Repo" url="baret-julie-resume.pdf" color="black" filledLogo={true} />
+                            <UnfilledButton title="Repo" url={project.repo} color="black" filledLogo={true} />
                         }
                         {project.demo &&
-                            <UnfilledButton title="Demo" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
+                            <UnfilledButton title="Demo" url={project.demo} color="red" transitionColor="middle-pink" gradient={true} />
                         }
 
                     </div>

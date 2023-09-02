@@ -1,6 +1,5 @@
 import Footer from './layouts/Footer'
 import Header from './layouts/Header'
-import './App.css'
 import ScrollToTheTop from './components/ScrollToTheTop'
 import ArrowIcon from './components/Icons/ArrowIcon'
 import Body from './layouts/Body'
