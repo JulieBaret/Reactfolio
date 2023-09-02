@@ -20,7 +20,7 @@ const ProjectDetails = ({ project }) => {
                         <p className='font-medium text-very-dark-grey leading-5 md:leading-6 md:mb-0 mb-3 text-base 2xl:text-xl md:text-lg'>{project.brief}</p>
                         <p className='text-sm md:text-base 2xl:text-lg text-dark-grey mb-6'>{project.description}</p>
                         {project.stack && (
-                            <ul className='mb-2 md:mb-3 flex flex-wrap md:justify-start justify-center mb-7'>
+                            <ul className='gap-3 md:mb-3 flex flex-wrap md:justify-start justify-center mb-7'>
                                 {project.stack.map((technology) => (
                                     <Badge technology={technology} />
                                 ))}
