@@ -3,8 +3,8 @@ import React from 'react';
 
 const Badge = ({ technology }) => {
     return (
-        <li key={uniqid()} className='stack-item'>
-        <div className=' bg-light-grey text-black text-sm 2xl:text-base font-medium mr-2 md:mb-4 px-3 py-2 rounded-full'>
+        <li key={uniqid()}>
+        <div className=' bg-light-grey text-black text-sm 2xl:text-base font-medium md:mb-4 px-3 py-2 rounded-full'>
             {technology}
         </div>
     </li>
