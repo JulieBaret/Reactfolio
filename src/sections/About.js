@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import { about } from '../info';
 import picture from '../assets/pp-no-bg.png';
 import ProfilePicture from '../components/ProfilePicture';
-import Button from '../components/Buttons/UnfilledButton';
+import UnfilledButton from '../components/Buttons/UnfilledButton';
 import FilledButton from '../components/Buttons/FilledButton';
 
 const About = () => {
@@ -61,7 +61,7 @@ const About = () => {
           <div className='mb-4 text-dark-grey md:text-lg md:mb-6 2xl:text-2xl'>{description}</div>
         </div>
         <div className='flex flex-col justify-start md:flex-row gap-3 md-gap-0'>
-          <Button title="Resume" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
+          <UnfilledButton title="Resume" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
           <FilledButton title="Github" color="black" url={social.github} />
           <FilledButton title="Linkedin" color="[#0077b5]" url={social.linkedin} filledLogo={true} />
         </div>
