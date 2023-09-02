@@ -71,23 +71,29 @@ Then, you'll be able to __visit the app__ at:
 ### Folder structure:
 ```
 .
+├── public    .   » Public directory
+|       |
+|       └── assets   » Picture, photo editing, resume and screencapture of the project for the README.md
+|
+| 
 ├── src .   » Project source code
 |       |
-|       └── components    » Several components including layouts (Header, Footer, etc.) and containers
+|       ├── components    » Several components including ui elements such as Buttons, Badge, HamburgerMenu, etc.
+|       |
+|       ├── layouts   » Layouts of the projet (Header, Body, Footer)
+|       |
+|       └── sections    » Major sections of the project such as Biography, Chronology, Projects etc.
 |       
-├── public    » Public assets
 |
-├── assets    » Projects overview and screencapture of the app for the README.md file
-|
-├── README.md   » Current file
+├── .gitignore
 |
 ├── package-lock.json
 |
 ├── package.json
 |
-├── tailwind.config.js    » Tailwind configuration file
+├── README.md   » Current file
 |
-└── .gitignore
+└── tailwind.config.js    » Tailwind configuration file
 ```
 <br>
 
