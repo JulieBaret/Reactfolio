@@ -1,7 +1,7 @@
 import React from 'react';
 import { titleToLogo } from '../utils';
 
-const Button = ({ title, color, transitionColor, url, filledLogo, gradient }) => {
+const UnfilledButton = ({ title, color, transitionColor, url, filledLogo, gradient }) => {
 
     return (
         <span>
@@ -37,4 +37,4 @@ const Button = ({ title, color, transitionColor, url, filledLogo, gradient }) =>
     );
 };
 
-export default Button;
+export default UnfilledButton;

@@ -1,6 +1,5 @@
-import uniqid from 'uniqid';
 import Badge from './Badge';
-import Button from "./Buttons/UnfilledButton";
+import UnfilledButton from "./Buttons/UnfilledButton";
 
 const ProjectDetails = ({ project }) => {
     return (
@@ -27,10 +26,10 @@ const ProjectDetails = ({ project }) => {
                             </ul>
                         )}
                         {project.repo &&
-                            <Button title="Repo" url="baret-julie-resume.pdf" color="black" filledLogo={true} />
+                            <UnfilledButton title="Repo" url="baret-julie-resume.pdf" color="black" filledLogo={true} />
                         }
                         {project.demo &&
-                            <Button title="Demo" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
+                            <UnfilledButton title="Demo" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
                         }
 
                     </div>

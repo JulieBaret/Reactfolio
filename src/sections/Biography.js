@@ -35,7 +35,7 @@ const Biography = () => {
                     </div>
                 </div>
             </div>
-            </section>
+        </section>
     );
 };
 
