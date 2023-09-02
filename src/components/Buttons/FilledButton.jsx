@@ -4,7 +4,7 @@ import { titleToLogo } from '../utils';
 const FilledButton = ({ title, color, url }) => {
 
     return (
-        <span className='mr-[1em]'>
+        <span>
             <a
                 className={`inline-flex 2xl:text-lg items-center rounded-full border-2 border-${color} bg-${color} px-5 py-3 text-sm font-medium text-white transition-colors hover:text-${color} hover:bg-transparent`}
                 href={url}

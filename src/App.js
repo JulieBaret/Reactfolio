@@ -7,15 +7,10 @@ import Body from './layouts/Body'
 
 const App = () => {
   return (
-    <div id='top'>
-      
-
-      <main>
-        <Header />
-        <Body />
-        <Footer />
-      </main>
-
+    <div id='top' className='flex flex-col justify-items-center'>
+      <Header />
+      <Body />
+      <Footer />
       <ScrollToTheTop scrollPosition={1500}>
         <ArrowIcon />
       </ScrollToTheTop>

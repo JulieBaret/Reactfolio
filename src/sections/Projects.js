@@ -1,8 +1,8 @@
 
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import ProjectDetails from '../components/ProjectDetails';
 import { projects } from '../info'
-import ProjectContainer from './ProjectContainer/ProjectContainer'
 
 const Projects = () => {
   if (!projects.length) return null
@@ -23,7 +23,7 @@ const Projects = () => {
 
       <div>
         {projects.map((project) => (
-          <ProjectContainer project={project} />
+          <ProjectDetails project={project} />
         ))}
       </div>
     </section>
