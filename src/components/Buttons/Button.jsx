@@ -16,7 +16,6 @@ const Button = ({ title, color, transitionColor, url, filledLogo, gradient }) =>
                 {filledLogo ? 
                 <svg 
                     className="w-5 h-5 ml-2"
-                    class="ml-2 h-5 w-5"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
