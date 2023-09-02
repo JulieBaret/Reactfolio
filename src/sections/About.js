@@ -1,7 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import { about } from '../info';
-import picture from '../assets/pp-no-bg.png';
 import ProfilePicture from '../components/ProfilePicture';
 import UnfilledButton from '../components/Buttons/UnfilledButton';
 import FilledButton from '../components/Buttons/FilledButton';
@@ -43,7 +42,7 @@ const About = () => {
   return (
 
     <div css={containerStyle} className='flex justify-evenly items-center self-center h-[70vh] w-[90vw] md:mt-6 2xl:mt-16'>
-      <ProfilePicture picture={picture} />
+      <ProfilePicture picture={'/assets/pp-no-bg.png'} />
       <div>
         <span className='mb-3 text-4xl font-extrabold text-black md:text-5xl md:mb-4 2xl:text-6xl;'>{name}</span>
         <span css={pointStyle} className='text-red text-5xl 2xl:text-6xl font-extrabold'>.</span>

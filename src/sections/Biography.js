@@ -1,6 +1,5 @@
 import React from 'react';
 import { bio } from '../info'
-import workingPicture from '../assets/working.png'
 
 const Biography = () => {
     return (
@@ -11,7 +10,7 @@ const Biography = () => {
                         <div className='relative h-64 sm:h-80 lg:h-4/5' id="bio">
                             <img
                                 alt="working"
-                                src={workingPicture}
+                                src='/assets/working.png'
                                 className='absolute inset-0 h-full w-full object-cover'
                             />
                         </div>
