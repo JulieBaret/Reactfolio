@@ -32,12 +32,6 @@ const About = () => {
   }
   `
 
-  const gradiantStyle = css`
-  @media (max-width: 768px) {
-    width: fit-content;
-  }
-  `
-
   const briefStyle = css`
   max-width: 450px;
   @media (max-width: 768px) {
