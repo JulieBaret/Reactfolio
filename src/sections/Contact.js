@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="flex flex-col items-center justify-center h-full">
           <div className="flex md:flex-row flex-col items-center gap-3">
             <UnfilledButton title="Email Me" url={`mailto:${contact.email}`} color="red" transitionColor="middle-pink" gradient={true} />
-            <FilledButton title="Linkedin" color="[#0077b5]" url={social.linkedin} filledLogo={true} />
+            <FilledButton title="Linkedin" color="blue" url={social.linkedin} filledLogo={true} />
             <FilledButton title="Github" color="black" url={social.github} />
           </div>
         </div>

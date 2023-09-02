@@ -20,7 +20,7 @@ const Chronology = () => {
     `
 
     return (
-        <section className='flex flex-col w-[80vw] md:w-[70vw] self-center'>
+        <section className='flex flex-col md:mt-24 lg:mt-10 w-[80vw] md:w-[70vw] self-center'>
             <div css={chronologyContainerStyle} className='mx-1 md:mx-0'>
                 <div className='text-4xl font-extrabold text-red lg:text-5xl 2xl:text-6xl'>Parcours</div>
                 {/* Vertial Line */}
