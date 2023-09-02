@@ -86,54 +86,47 @@ const contact = {
 
 const experience = [  
 {
-  where: "Ada Tech School",
-  what: "Concepteur Développeur d'applications",
-  when: "Mai 2022 - Mars 2024",
-  // more: ["École de code guidée par la pédagogie Montessori", "Succession de projets suivant les méthodes Agile", "Apprentissage des bonnes pratiques du développement", "Seconde partie de l'enseignement réalisé en alternance"],
+  location: "Ada Tech School",
+  title: "Concepteur Développeur d'applications",
+  date: "Mai 2022 - Mars 2024",
   more: ["École de code guidée par la pédagogie Montessori", "Succession de projets par sprint de deux semaines en agilité", "Seconde partie de la formation réalisé en alternance"]
 },
 {
-  where: "Mairie de Paris",
-  what: "Programmer en Python : s'initier",
-  when: "Oct. 2021 - Fév. 2022",
+  location: "Mairie de Paris",
+  title: "Programmer en Python : s'initier",
+  date: "Oct. 2021 - Fév. 2022",
   more: ["Cours du soir pour adultes"]
 },
 {
-  where: "Konbini",
-  what: "Journaliste et cheffe de rubrique",
-  when: "Mai 2018 - Mai 2022",
+  location: "Konbini",
+  title: "Journaliste et cheffe de rubrique",
+  date: "Mai 2018 - Mai 2022",
   more: ["Création et gestion du programme « Konbini Stories » diffusé sur Snapchat et suivi par 1 million d’abonné·e·s en 2022", "Interviews, cadrage et montage vidéo, graphisme, recherche et rédaction", "Préparation des reportages de Konbini News"],
 },
 {
-  where: "SOS homophobie",
-  what: "Rédactrice bénévole",
-  when: "Sept. 2020 - Mai 2022",
+  location: "SOS homophobie",
+  title: "Rédactrice bénévole",
+  date: "Sept. 2020 - Mai 2022",
   more: ["Participation à la rédaction, l’élaboration et la diffusion du Rapport annuel de SOS homophobie qui documente l’évolution des LGBTIphobies en France"],
 },
 {
-  where: "Têtu",
-  what: "Journaliste plurimédia",
-  when: "Mars 2016 - Fév. 2018",
+  location: "Têtu",
+  title: "Journaliste plurimédia",
+  date: "Mars 2016 - Fév. 2018",
   more: ["Rédaction quotidienne d’articles pour le site internet tetu.com", "Auteure de chroniques sur l'actualité culturelle et sociétale pour le magazine bimestriel TÊTU"],
 },
 {
-  where: "Institut Français de Presse",
-  what: "Sciences des médias",
-  when: "2013 - 2016",
+  location: "Institut Français de Presse",
+  title: "Sciences des médias",
+  date: "2013 - 2016",
   more: ["Master 1 & 2 : Médias, Langages et Société", "Échange universitaire d'un semestre à l'Université Laval à Québec, Canada", "Option Études de genre à l'École des Hautes Études en Sciences Sociales"],
 },
 {
-  where: "Université Paris-Sorbonne",
-  what: "Histoire",
-  when: "2011 - 2013",
+  location: "Université Paris-Sorbonne",
+  title: "Histoire",
+  date: "2011 - 2013",
   more: ["Double-Licence 3 : Histoire et Information-Communication", "Licence 1 & Licence 2 : Histoire", "Option Histoire de l’Art"],
-},
-// {
-//   where: "",
-//   what: "Baccalauréat scientifique",
-//   when: "2011",
-//   more: [""],
-// },
+}
 ]
 
 export { about, projects, contact, bio, experience }
