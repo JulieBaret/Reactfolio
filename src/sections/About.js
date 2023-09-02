@@ -57,7 +57,7 @@ const About = () => {
         <div className='flex flex-col justify-start md:flex-row gap-3 md-gap-0'>
           <UnfilledButton title="Resume" url="baret-julie-resume.pdf" color="red" transitionColor="middle-pink" gradient={true} />
           <FilledButton title="Github" color="black" url={social.github} />
-          <FilledButton title="Linkedin" color="[#0077b5]" url={social.linkedin} filledLogo={true} />
+          <FilledButton title="Linkedin" color="blue" url={social.linkedin} filledLogo={true} />
         </div>
       </div>
     </div>
