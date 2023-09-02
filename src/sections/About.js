@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import { about } from '../info';
 import picture from '../assets/pp-no-bg.png';
 import ProfilePicture from '../components/ProfilePicture';
-import Button from '../components/Buttons/Button';
+import Button from '../components/Buttons/UnfilledButton';
 import FilledButton from '../components/Buttons/FilledButton';
 
 const About = () => {

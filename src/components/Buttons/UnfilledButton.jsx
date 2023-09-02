@@ -4,7 +4,7 @@ import { titleToLogo } from '../utils';
 const Button = ({ title, color, transitionColor, url, filledLogo, gradient }) => {
 
     return (
-        <span className='mr-[1em] group'>
+        <span>
             <a
                 className={gradient ? `inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-${color} from-${color} to-${transitionColor} p-[2px] hover:text-white` : `inline-flex items-center rounded-full transition-colors bg-${color} text-${color} p-[2px] mr-2 hover:text-white`}
                 href={url}
