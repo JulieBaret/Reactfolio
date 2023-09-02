@@ -3,14 +3,14 @@ import { useState, useEffect } from 'react';
 import { css } from '@emotion/react';
 
 const elementStyle = css`
-position: fixed;
-bottom: 3em;
-right: 48.5vw;
-background-color: transparent;
-z-index: 50;
+    position: fixed;
+    bottom: 3em;
+    right: 48.5vw;
+    background-color: transparent;
+    z-index: 50;
 
-@media (max-width: 900px) {
-        right: 45vw;
+    @media (max-width: 900px) {
+        right: 47vw;
     }
 `
 
