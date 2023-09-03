@@ -19,11 +19,7 @@ const ScrollToTheTop = ({ children, scrollPosition }) => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.pageYOffset > scrollPosition) {
-                setDisplayIcon(true);
-            } else {
-                setDisplayIcon(false);
-            }
+            setDisplayIcon(window.pageYOffset > scrollPosition)
         };
 
         window.addEventListener('scroll', handleScroll);
