@@ -47,7 +47,8 @@ Hi there 👋 Here is my first portfolio built with React.js.
 
 <!-- GETTING STARTED -->
 ## 🛠 Getting Started
-Clone down this repository.
+Clone down the refacto branch of the repository:
+`git clone -b refacto git@github.com:JulieBaret/Reactfolio.git` 
 
 ### Prerequisites:
 You will need `node` and `npm` installed globally on your machine.  
