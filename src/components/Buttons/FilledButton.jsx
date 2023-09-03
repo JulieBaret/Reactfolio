@@ -1,12 +1,14 @@
 import React from 'react';
+import { useMemo } from 'react';
 import { titleToLogo } from '../utils';
 
 const FilledButton = ({ title, color, url }) => {
+    const currentColor = useMemo(() => color, [color]);
 
     return (
         <span>
             <a
-                className={`inline-flex 2xl:text-lg items-center rounded-full border-2 border-${color} bg-${color} px-5 py-3 text-sm font-medium text-white transition-colors hover:text-${color} hover:bg-transparent`}
+                className={`inline-flex 2xl:text-lg items-center rounded-full border-2 border-${currentColor} bg-${currentColor} px-5 py-3 text-sm font-medium text-white transition-colors hover:text-${currentColor} hover:bg-transparent`}
                 href={url}
                 target='_blank'
                 rel='noreferrer'
