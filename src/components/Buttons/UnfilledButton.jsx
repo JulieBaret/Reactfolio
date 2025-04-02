@@ -1,12 +1,17 @@
 import React from 'react';
+import clsx from 'clsx';
 import { titleToLogo } from '../utils';
 
 const UnfilledButton = ({ title, color, transitionColor, url, filledLogo, gradient }) => {
-
+    const baseClass = "inline-flex items-center rounded-full transition-colors p-[2px] hover:text-white";
+    const colorClass = gradient
+        ? clsx(`bg-gradient-to-r from-${color} to-${transitionColor} text-${color}`)
+        : clsx(`bg-${color} text-${color}`);
+    const style = clsx(baseClass, colorClass);
     return (
         <span>
             <a
-                className={gradient ? `inline-flex items-center rounded-full transition-colors bg-gradient-to-r text-${color} from-${color} to-${transitionColor} p-[2px] hover:text-white` : `inline-flex items-center rounded-full transition-colors bg-${color} text-${color} p-[2px] mr-2 hover:text-white`}
+                className={style}
                 href={url}
                 target='_blank'
                 rel='noreferrer'
