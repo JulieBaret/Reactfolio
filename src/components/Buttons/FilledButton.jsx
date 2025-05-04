@@ -2,8 +2,12 @@ import clsx from 'clsx';
 import React from 'react';
 import { titleToLogo } from '../utils';
 
-const FilledButton = ({ title, color, url }) => {
-    const colorClass = `bg-${color} border-${color} hover:text-${color}`;
+const FilledButton = ({ title, color = 'black', url }) => {
+    const colorClasses = {
+        blue: 'bg-blue border-blue hover:text-blue',
+        black: 'bg-black border-black hover:text-black',
+    };
+    const colorClass = colorClasses[color];
     const baseClass = "inline-flex 2xl:text-lg items-center rounded-full border-2 px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-white";
     const style = clsx(baseClass, colorClass);
 

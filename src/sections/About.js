@@ -60,10 +60,10 @@ const About = () => {
           className="text-5xl font-extrabold md:text-5xl lg:text-6xl 2xl:text-7xl mb-4 2xl:leading-snug;"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red to-middle-pink">
-            Software
+            Frontend
           </span>
           <span className="md:ml-3 bg-gradient-to-r from-red to-middle-pink text-white">
-            Developer
+            Engineer
           </span>
         </div>
         <div css={briefStyle} className="2xl:max-w-xl">
