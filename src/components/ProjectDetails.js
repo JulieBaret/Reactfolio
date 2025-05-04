@@ -34,25 +34,29 @@ const ProjectDetails = ({ project }) => {
                 ))}
               </ul>
             )}
-            <div className="flex flex-row gap-2 w-full justify-center">
+            <ul className="flex flex-row gap-2 w-full md:justify-start justify-center">
               {project.repo && (
-                <UnfilledButton
-                  title="Repo"
-                  url={project.repo}
-                  color="black"
-                  filledLogo={true}
-                />
+                <li>
+                  <UnfilledButton
+                    title="Repo"
+                    url={project.repo}
+                    color="black"
+                    filledLogo={true}
+                  />
+                </li>
               )}
               {project.demo && (
-                <UnfilledButton
-                  title="Demo"
-                  url={project.demo}
-                  color="red"
-                  transitionColor="middle-pink"
-                  gradient={true}
-                />
+                <li>
+                  <UnfilledButton
+                    title="Demo"
+                    url={project.demo}
+                    color="red"
+                    transitionColor="middle-pink"
+                    gradient={true}
+                  />
+                </li>
               )}
-            </div>
+            </ul>
           </div>
         </div>
       </div>
