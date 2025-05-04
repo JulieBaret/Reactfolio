@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 
 const elementStyle = css`
     position: fixed;
-    bottom: 3em;
+    bottom: 3.5em;
     right: 48.5vw;
     background-color: transparent;
     z-index: 50;

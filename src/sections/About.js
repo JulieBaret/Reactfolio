@@ -74,7 +74,7 @@ const About = () => {
         <div className="flex flex-col justify-start md:flex-row gap-3 md-gap-0">
           <UnfilledButton
             title="Resume"
-            url="assets/baret-julie-resume.pdf"
+            url="assets/Julie_Baret_resume_2025.pdf"
             color="red"
             transitionColor="middle-pink"
             gradient
