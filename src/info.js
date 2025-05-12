@@ -1,7 +1,7 @@
 const about = {
   name: "Julie Baret",
   description:
-    "Développeuse frontend basée à Paris, riche de plusieurs années d'expérience en start-up et d'une première carrière dans les médias",
+    "Développeuse frontend curieuse et passionée par les enjeux du web, je construis des interfaces claires et fonctionnelles",
   social: {
     linkedin: "https://www.linkedin.com/in/julie-baret/",
     github: "https://github.com/JulieBaret",
@@ -10,11 +10,11 @@ const about = {
 
 const bio = {
   paraph1:
-    "Ancienne journaliste vidéo, je me suis reconvertie dans le développement web en 2022 pour créer des outils numériques concrets et utiles, avec l’envie d’avoir un impact positif.",
+    "Après une première carrière dans les médias, j'ai troqué le journalisme pour le développement web en 2022, portée par l'envie de créer des outils numériques utiles et accessibles à tout·e·s.",
   paraph2:
-    "Après une formation en développement de deux ans, j’ai travaillé en start-up sur des projets user-centric, autour de la cybersécurité et de la musique.",
+    "Pendant et à la suite d'une formation en informatique de deux ans, j’ai travaillé sur des projets 'user-centric' consacrés à la cybersécurité et à la musique.",
   paraph3:
-    "Je suis aujourd’hui à la recherche d’une nouvelle équipe pour continuer à progresser techniquement et contribuer à des produits engagés !",
+    "Aujourd’hui, je cherche une équipe avec qui progresser techniquement, façonner des produits engagés et grandir en tant que développeuse.",
 };
 
 const projects = [
@@ -24,7 +24,7 @@ const projects = [
     type: "Projet de fin d'études",
     brief: "Le 'Yuka des films' à la sauce féministe",
     description:
-      "Cette application web collaborative référence tous les films qui passent ou ne passent pas le test de Bechdel, lequel est composé de trois questions simples mais révélatrices : Y a-t-il au moins deux femmes dans ce film ? Se parlent-elles ? Et, si oui, parlent-elles d'autre chose que des hommes ?",
+      "Cette application web collaborative référence les films qui passent ou ne passent pas le 'test de Bechdel', un outil d'analyse cinématographique qui repose sur trois questions simples mais révélatrices : Y a-t-il au moins deux femmes dans ce film ? Se parlent-elles ? Et, si oui, parlent-elles d'autre chose que des hommes ?",
     stack: [
       "React.js",
       "TypeScript",
@@ -38,7 +38,8 @@ const projects = [
       "Figma",
     ],
     repo: "https://github.com/JulieBaret/Women-In-View-Frontend",
-    demo: "https://wiv.adahub.fr/",
+    // demo: "https://wiv.adahub.fr/",
+    demo: "FIX",
   },
   {
     title: "Poké-Astro",
@@ -120,14 +121,13 @@ const experience = [
   {
     location: "Deezer",
     title: "Frontend engineer",
-    date: "Octobre 2023 - Juin 2024",
+    date: "Octobre 2023 - Mai 2024",
     more: [
       "Alternance réalisée au sein de l’équipe web dédiée au Core Product et en collaboration avec les équipes Data, Design, Product et Q.A.",
       "Maintien et enrichissement du Design System",
       "Développement d’un outil d’assistance à la création de playlist",
       "Participation à la refactorisation de la recherche catalogue",
-      "Réalisation de POC pour les explorations produits",
-      "Implémentation d’AB tests et collecte de log",
+      "Réalisation de POC pour les explorations produits, implémentation d’AB tests et collecte de log",
       "Participation aux rituels Agile et présentations techniques",
     ],
   },
