@@ -38,8 +38,7 @@ const projects = [
       "Figma",
     ],
     repo: "https://github.com/JulieBaret/Women-In-View-Frontend",
-    // demo: "https://wiv.adahub.fr/",
-    demo: "FIX",
+    demo: "https://wiv.adaschool.fr/",
   },
   {
     title: "Poké-Astro",
