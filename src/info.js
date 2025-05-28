@@ -1,7 +1,7 @@
 const about = {
   name: "Julie Baret",
   description:
-    "Développeuse frontend curieuse et passionée par les enjeux du web, je construis des interfaces claires et fonctionnelles",
+    "Développeuse curieuse et passionnée par les défis du web, avec plusieurs années d’expérience en startups tech",
   social: {
     linkedin: "https://www.linkedin.com/in/julie-baret/",
     github: "https://github.com/JulieBaret",
@@ -10,11 +10,11 @@ const about = {
 
 const bio = {
   paraph1:
-    "Après une première carrière dans les médias, j'ai troqué le journalisme pour le développement web en 2022, portée par l'envie de créer des outils numériques utiles et accessibles à tout·e·s.",
+    "Ancienne journaliste, j'ai passé plusieurs années à chroniquer l'actualité sociétale et culturelle avant de démarrer une reconversion professionnelle dans le développement informatique.",
   paraph2:
-    "Pendant et à la suite d'une formation en informatique de deux ans, j’ai travaillé sur des projets 'user-centric' consacrés à la cybersécurité et à la musique.",
-  paraph3:
-    "Aujourd’hui, je cherche une équipe avec qui progresser techniquement, façonner des produits engagés et grandir en tant que développeuse.",
+    "Portée par l'envie de créer des outils numériques utiles et accessibles à tout·e·s, je travaille depuis plus de deux ans sur des projets 'user-centric', à transformer des besoins complexes en interfaces claires et fonctionnelles.",
+  // paraph3:
+  // "Je recherche aujourd'hui une équipe dynamique et collaborative avec laquelle façonner des produits engagés.",
 };
 
 const projects = [

@@ -32,9 +32,11 @@ const Biography = () => {
                 {bio.paraph2}
               </p>
 
-              <p className="font-medium text-very-dark-grey 2xl:text-xl/6 md:text-lg/6">
-                {bio.paraph3}
-              </p>
+              {bio.paraph3 && (
+                <p className="font-medium text-very-dark-grey 2xl:text-xl/6 md:text-lg/6">
+                  {bio.paraph3}
+                </p>
+              )}
             </div>
           </div>
         </div>
