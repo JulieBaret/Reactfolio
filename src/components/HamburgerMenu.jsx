@@ -68,10 +68,10 @@ const HamburgerMenu = () => {
                     {/* Mobile List */}
                     <ul className='flex flex-col items-center justify-between min-h-[250px] text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red to-middle-pink'>
                         <li>
-                            <a href="#projects" onClick={closeMenu}>Projets</a>
+                            <a href="#projects" onClick={closeMenu}>Projects</a>
                         </li>
                         <li>
-                            <a href="#bio" onClick={closeMenu}>Bio</a>
+                            <a href="#bio" onClick={closeMenu}>Biography</a>
                         </li>
                         <li>
                             <a href="#contact" onClick={closeMenu}>Contact</a>
@@ -86,10 +86,10 @@ const HamburgerMenu = () => {
             {/* Desktop */}
             <ul className="hidden space-x-8 lg:flex font-normal 2xl:text-lg text-dark-grey text-right">
                 <li>
-                    <a href="#projects">Projets</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#bio">Bio</a>
+                    <a href="#bio">Biography</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>

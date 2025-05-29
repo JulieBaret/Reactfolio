@@ -31,7 +31,7 @@ const UnfilledButton = ({ title, color, transitionColor, url, filledLogo, gradie
                     className={`w-5 h-5 ml-2`}
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="2"
+                    strokeWidth="2"
                     stroke="currentColor"
                     dangerouslySetInnerHTML={{ __html: titleToLogo[title] }}>
                 </svg>

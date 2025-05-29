@@ -1,7 +1,6 @@
 const about = {
-  name: "Julie Baret",
   description:
-    "Développeuse curieuse et passionnée par les défis du web, avec plusieurs années d’expérience en startups tech",
+    "Just passionate about 🖤 coding, 📚 reading and petting animals 🦄",
   social: {
     linkedin: "https://www.linkedin.com/in/julie-baret/",
     github: "https://github.com/JulieBaret",
@@ -10,9 +9,10 @@ const about = {
 
 const bio = {
   paraph1:
-    "Ancienne journaliste, j'ai passé plusieurs années à chroniquer l'actualité sociétale et culturelle avant de démarrer une reconversion professionnelle dans le développement informatique.",
+    "I’m a former journalist who spent several years writing about social and cultural topics before deciding to switch gears and dive into software development 🚀",
   paraph2:
-    "Portée par l'envie de créer des outils numériques utiles et accessibles à tout·e·s, je travaille depuis plus de deux ans sur des projets 'user-centric', à transformer des besoins complexes en interfaces claires et fonctionnelles.",
+    "Since then, I've focused on building meaningful digital tools, turning complex user needs into simple, clear, and functional interfaces",
+  paraph3: "Let’s make the web a better place together 🌍💫",
   // paraph3:
   // "Je recherche aujourd'hui une équipe dynamique et collaborative avec laquelle façonner des produits engagés.",
 };
@@ -21,10 +21,10 @@ const projects = [
   {
     title: "Women in View",
     picture: "/assets/mockups/wiv.png",
-    type: "Projet de fin d'études",
-    brief: "Le 'Yuka des films' à la sauce féministe",
+    type: "Final year project",
+    brief: "The 'Yuka for films' with a feminist twist",
     description:
-      "Cette application web collaborative référence les films qui passent ou ne passent pas le 'test de Bechdel', un outil d'analyse cinématographique qui repose sur trois questions simples mais révélatrices : Y a-t-il au moins deux femmes dans ce film ? Se parlent-elles ? Et, si oui, parlent-elles d'autre chose que des hommes ?",
+      "This collaborative web application catalogs films that do or do not pass the 'Bechdel Test', a cinematic analysis tool based on three simple but revealing questions: Are there at least two women in the film? Do they talk to each other? And, if so, do they talk about something other than men?",
     stack: [
       "React.js",
       "TypeScript",
@@ -43,10 +43,10 @@ const projects = [
   {
     title: "Poké-Astro",
     picture: "/assets/mockups/poke-astro.png",
-    type: "Visualisation de données",
-    brief: "La parfaite combinaison de l’astrologie et de l’univers de Pokémon",
+    type: "Dataviz",
+    brief: "The ideal mix of astrology and the Pokémon universe",
     description:
-      "Sur ce site interactif et responsive, renseignez votre date de naissance pour découvrir votre signe astrologique et le Pokémon qui lui est associé !",
+      "On this interactive and responsive website, enter your birth date to discover your astrological sign and the Pokémon associated with it!",
     stack: ["HTML", "CSS", "JavaScript", "Git", "GitHub", "API", "Miro"],
     repo: "https://github.com/JulieBaret/pokeastro",
     demo: "https://juliebaret.github.io/pokeastro/",
@@ -54,11 +54,11 @@ const projects = [
   {
     title: "Panda vs. Trump",
     picture: "/assets/mockups/panda-vs-trump.png",
-    type: "Jeu vidéo",
+    type: "Video game",
     brief:
-      "Dans ce jeu vidéo rétro, un seul panda doit combattre une armée de clones nommés Républicants...",
+      "In this retro video game, a lone panda must fight an army of clones called the Republicans...",
     description:
-      "Jeu vidéo en 2D développé en Lua sur le logiciel Pico-8 où le·la player peut se déplacer sur une map, ramasser des items, jeter des projectiles et éviter des bots aux déplacements aléatoires pour conserver ses points de vie.",
+      "2D video game developed in Lua on the Pico-8 software where the player can move, collect items, throw projectiles, and avoid bots to preserve their health points.",
     stack: ["Lua", "Pico-8"],
     repo: "https://github.com/JulieBaret/Panda-vs-Trump",
     demo: "https://www.lexaloffle.com/bbs/?tid=49844",
@@ -66,10 +66,10 @@ const projects = [
   {
     title: "Random kitty",
     picture: "/assets/mockups/kitty.png",
-    type: "Visualisation de données",
-    brief: "Juste une petite dose de good vibes",
+    type: "Dataviz",
+    brief: "A tiny bit of good vibes",
     description:
-      "Cette page web affiche aléatoirement des images de chats à chaque rafraîchissement, grâce à l’API thecatapi.com.",
+      "This web page randomly displays cat pictures on each refresh, thanks to the Cat API",
     stack: ["HTML", "CSS", "JavaScript", "API"],
     repo: "https://github.com/JulieBaret/kitty-mood",
     demo: "https://juliebaret.github.io/kitty-mood/",
@@ -77,20 +77,20 @@ const projects = [
   {
     title: "Fear Of Missing Out",
     picture: "/assets/mockups/fomo.png",
-    type: "Extension navigateur",
-    brief: "Un outil de veille informationnelle pour éviter le FOMO",
+    type: "Browser extension",
+    brief: "A tool built to avoid the FOMO",
     description:
-      "Grâce à cette extension Google Chrome, ne ratez aucune news concernant vos sujets préférés. Entrez un mot-clé et recevez par notifications les trois derniers articles de presse relatifs à ce sujet.",
+      "With this Google Chrome extension, you'll never miss any piece of information. Enter a keyword and receive notifications for the three latest articles related to your favorite news topic.",
     stack: ["HTML", "CSS", "JavaScript", "API", "Git", "GitHub", "Figma"],
     repo: "https://github.com/JulieBaret/FOMO",
   },
   {
     title: "ReSoc",
     picture: "/assets/mockups/resoc.png",
-    type: "Réseau social",
-    brief: "Poster, liker et s'abonner",
+    type: "Social Network",
+    brief: "Post, like, and subscribe",
     description:
-      "À partir d'une architecture PHP, connexion à une base de données relationnelle et implémentation des features suivantes : inscription et authentification, publication de messages, ajout de « J'aime » sur les posts, accès aux murs de publication de chaque user, abonnement aux publications des autres users, recherche de messages par mots-clés.",
+      "PHP website with following features: registration and authentication, posting messages, adding 'Likes' on posts, access to each user's message wall, subscribing to other users' posts, and searching messages by keywords",
     stack: [
       "HTML",
       "CSS",
@@ -114,89 +114,75 @@ const experience = [
   {
     location: "Deezer",
     title: "Frontend engineer",
-    date: "Juillet 2024 - Aujourd'hui",
-    more: ["Contrat à temps plein"],
-  },
-  {
-    location: "Deezer",
-    title: "Frontend engineer",
-    date: "Octobre 2023 - Mai 2024",
+    date: "October 2023 - Today",
     more: [
-      "Alternance réalisée au sein de l’équipe web dédiée au Core Product et en collaboration avec les équipes Data, Design, Product et Q.A.",
-      "Maintien et enrichissement du Design System",
-      "Développement d’un outil d’assistance à la création de playlist",
-      "Participation à la refactorisation de la recherche catalogue",
-      "Réalisation de POC pour les explorations produits, implémentation d’AB tests et collecte de log",
-      "Participation aux rituels Agile et présentations techniques",
+      "Apprenticeship turned into a one year full-time job",
+      "Integrated to the Core Product team to build interactive experiences",
+      "Daily collaboration with Product, Data, Design, Backend and QA team",
+      "Worked on the main app, the blindtest journey, 'My Deezer Year'...",
     ],
   },
   {
     location: "Kamaé",
-    title: "Développeuse full-stack",
+    title: "Full-stack developer",
     date: "Mars 2023 - Septembre 2023",
     more: [
-      "Alternance réalisée dans une start-up early stage et sous la supervision directe du CTO",
-      "Design, conception et développement de features destinées à dynamiser la sensibilisation à la cybersécurité",
-      "Maintenance et évolution de l’architecture hexagonale du backend",
-      "Évolution du schéma de la base de données",
+      "Apprenticeship completed in an early-stage startup, under the direct supervision of the CTO",
+      "Designed and built features aimed at boosting cybersecurity awareness",
     ],
   },
   {
     location: "Ada Tech School",
-    title: "Développement web",
-    date: "Mai 2022 - Juillet 2024",
+    title: "Software engineering",
+    date: "May 2022 - July 2024",
     more: [
-      "Formation en 2 ans",
-      "Titre Professionnel Concepteur Développeur d'applications (RNCP niveau 6)",
+      "Coding program completed with a professional title in computing science (RNCP 6)",
     ],
   },
   {
     location: "Konbini",
-    title: "Cheffe de rubrique",
-    date: "Mai 2018 - Mai 2022",
+    title: "Section editor",
+    date: "May 2018 - May 2022",
     more: [
-      "Création et gestion du programme « Konbini Stories » diffusé sur Snapchat et suivi par 1 million d’abonné·e·s en 2022",
-      "Interviews, cadrage et montage vidéo, graphisme, recherche et rédaction",
-      "Préparation des reportages de Konbini News",
+      "Created and managed the “Konbini Stories” video edition followed by 1 million Snapchat subscribers in 2022",
+      "Writing, research, filming and video editing, graphic design, publishing",
     ],
   },
   {
     location: "SOS homophobie",
-    title: "Rédactrice bénévole",
-    date: "Sept. 2020 - Mai 2022",
+    title: "Volunteer writer",
+    date: "September 2020 - May 2022",
     more: [
-      "Participation à la rédaction, l’élaboration et la diffusion du Rapport annuel de SOS homophobie qui documente l’évolution des LGBTIphobies en France",
+      "Contributed to the writing, editing, and release of SOS Homophobie’s Annual Report, a key publication tracking the evolution of LGBTIphobia in France",
     ],
   },
   {
     location: "Têtu",
-    title: "Journaliste",
-    date: "Mars 2016 - Fév. 2018",
+    title: "Journalist",
+    date: "March 2016 - February 2018",
     more: [
-      "Rédaction quotidienne d’articles pour le site internet tetu.com",
-      "Auteure de chroniques sur l'actualité culturelle et sociétale pour le magazine bimestriel TÊTU",
+      "Permanent writer for both the website and print magazine, covering LGBTQIA+ cultural and political issues",
     ],
   },
   {
-    location: "Institut Français de Presse",
-    title: "Sciences des médias",
+    location: "French Press Institute",
+    title: "Media studies",
     date: "2013 - 2016",
     more: [
-      "Master 1 & 2 : Médias, Langages et Société",
-      "Échange universitaire d'un semestre à l'Université Laval à Québec, Canada",
-      "Option Études de genre à l'École des Hautes Études en Sciences Sociales",
+      "Master of Arts (Master 2 Médias, langages et sociétés)",
+      "University exchange semester at Université Laval in Québec, Canada",
+      "Gender Studies at the École des Hautes Études en Sciences Sociales",
     ],
   },
-  {
-    location: "Université Paris-Sorbonne",
-    title: "Histoire",
-    date: "2011 - 2013",
-    more: [
-      "Double-Licence 3 : Histoire et Information-Communication",
-      "Licence 1 & Licence 2 : Histoire",
-      "Option Histoire de l’Art",
-    ],
-  },
+  // {
+  //   location: "Paris-Sorbonne University",
+  //   title: "History",
+  //   date: "2011 - 2013",
+  //   more: [
+  //     "Dual Bachelor’s degree (double-licence 3) with Panthéon-Assas University",
+  //     "Minor in Art History",
+  //   ],
+  // },
 ];
 
 export { about, projects, contact, bio, experience };

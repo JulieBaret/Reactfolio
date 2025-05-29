@@ -19,7 +19,7 @@ const About = () => {
   const pointStyle = css`
     @media (max-width: 768px) {
       font-weight: 900;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   `;
 
@@ -46,25 +46,35 @@ const About = () => {
     >
       <ProfilePicture picture={"/assets/pp-no-bg.png"} />
       <div>
-        <span className="mb-3 text-4xl font-extrabold text-black md:text-5xl md:mb-4 2xl:text-6xl;">
-          {name}
+        <span className="mb-3 text-3xl font-extrabold text-black md:text-5xl md:mb-4 2xl:text-6xl">
+          Hi there
         </span>
         <span
           css={pointStyle}
-          className="text-red text-5xl 2xl:text-6xl font-extrabold"
+          className="text-red text-4xl 2xl:text-6xl font-extrabold"
         >
-          .
+          ,
+        </span>
+        <span className="mb-3 text-3xl font-extrabold text-black md:text-5xl md:mb-4 2xl:text-6xl;">
+          {" "}
+          I'm Julie
+        </span>
+        <span
+          css={pointStyle}
+          className="text-red text-4xl 2xl:text-6xl font-extrabold"
+        >
+          !
         </span>
         <div
           css={gradiantContainerStyle}
-          className="text-5xl font-extrabold md:text-5xl lg:text-6xl 2xl:text-7xl mb-4 2xl:leading-snug;"
+          className="text-4xl font-extrabold md:text-5xl lg:text-6xl 2xl:text-7xl leading-none lg:mb-4"
         >
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red to-middle-pink">
-            Frontend
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red to-middle-pink pb-4">
+            Frontend engineer
           </span>
-          <span className="md:ml-3 bg-gradient-to-r from-red to-middle-pink text-white">
-            Engineer
-          </span>
+          {/* <span className="md:ml-3 bg-gradient-to-r from-red to-middle-pink text-white">
+            engineer
+          </span> */}
         </div>
         <div css={briefStyle} className="2xl:max-w-xl">
           <div className="mb-4 text-dark-grey md:text-lg md:mb-6 2xl:text-2xl">

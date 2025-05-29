@@ -4,7 +4,7 @@ import ArrowList from "./ArrowList";
 const ChronologyDetails = ({ experience }) => {
   return (
     <li key={uniqid()}>
-      <div class="flex flex-start items-center">
+      <div className="flex flex-start items-center">
         {/* Bullet Point */}
         <div className="bg-pink w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-4 md:-mt-2"></div>
         <div className=" text-very-dark-grey leading-6 font-semibold text-lg md:text-xl 2xl:text-2xl md:-mt-2 -mt-4 flex flex-wrap">
@@ -18,11 +18,13 @@ const ChronologyDetails = ({ experience }) => {
         <p className="inline-block text-middle-pink uppercase text-xs font-medium md:font-light md:text-base 2xl:text-lg">
           {experience.date}
         </p>
-        <ul class="">
-          {experience.more.map((task) => (
-            <ArrowList task={task} />
-          ))}
-        </ul>
+        {experience.more && (
+          <ul>
+            {experience.more.map((task, index) => (
+              <ArrowList key={index} task={task} />
+            ))}
+          </ul>
+        )}
       </div>
     </li>
   );

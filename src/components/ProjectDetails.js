@@ -29,8 +29,8 @@ const ProjectDetails = ({ project }) => {
             </p>
             {project.stack && (
               <ul className="gap-3 md:mb-3 flex flex-wrap md:justify-start justify-center mb-7">
-                {project.stack.map((technology) => (
-                  <Badge technology={technology} />
+                {project.stack.map((technology, index) => (
+                  <Badge key={index} technology={technology} />
                 ))}
               </ul>
             )}

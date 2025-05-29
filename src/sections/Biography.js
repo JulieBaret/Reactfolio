@@ -33,7 +33,7 @@ const Biography = () => {
               </p>
 
               {bio.paraph3 && (
-                <p className="font-medium text-very-dark-grey 2xl:text-xl/6 md:text-lg/6">
+                <p className="font-bold md:text-base 2xl:text-lg text-very-dark-grey ">
                   {bio.paraph3}
                 </p>
               )}
