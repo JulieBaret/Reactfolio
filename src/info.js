@@ -116,7 +116,7 @@ const experience = [
     title: "Frontend engineer",
     date: "October 2023 - Today",
     more: [
-      "Apprenticeship turned into a one year full-time job",
+      "8-month apprenticeship turned into a full-time job",
       "Integrated to the Core Product team to build interactive experiences",
       "Daily collaboration with Product, Data, Design, Backend and QA team",
       "Worked on the main app, the blindtest journey, 'My Deezer Year'...",
